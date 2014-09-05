@@ -22,3 +22,4 @@ while n > 0:
 f.close()
 
 # tail address.txt
+# readlines()[-n-1:-1]
