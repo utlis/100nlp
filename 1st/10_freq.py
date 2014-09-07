@@ -14,3 +14,28 @@ with open("freq_ranking.txt", "w") as out:
 		out.write(i + '\t' + str(j) + '\n')
 
 # sort col2.txt | uniq -c | sort -n -r | less  >> freq_ranking.txt
+
+# ver.miyata
+# from operator import itemgetter, attrgetter
+# import re
+# import sys
+# #argv = sys.argv
+# f = open('col2.txt', 'r')
+# #dicAddress = {}
+
+# keyAddress = []
+# valAddress = []
+
+# count = {}
+
+# # counting
+# for line in f:
+#   line = line.rstrip()
+#   count[line] = count.get(line,0) + 1
+
+# # sort by count
+# d = [(v,k) for k,v in count.items()]
+# d.sort()
+# d.reverse()
+# for count, word in d:
+#     print(count, word)
