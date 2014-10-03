@@ -16,20 +16,20 @@ t12 = '赤門前なう'
 print(p12.search(t12))
 
 p13 = re.compile("(.*)RT") # 非公式RT（文頭コメント型/無言型）
-t13 = 'まぁじウケるwww RT うんたらかんたら' 
+t13 = 'まぁじウケるwww RT @user_name うんたらかんたら' 
 print(p13.search(t13))
 
-p14 = re.compile("@[\w\d_]+") # @の前に文字列がある場合も考慮してsearch
+p14 = re.compile("@\w+") # @の前に文字列がある場合も考慮してsearch
 t14 = "@Gascar_ShunT"
 print(p14.search(t14))
 
-p15 = re.compile("@([\w\d_]+)")
+p15 = re.compile("@(\w+)")
 t15 = "@reply りぷらいだよ〜〜ん"
-user = p15.search(t15).group()
+user = p15.search(t15).group(1)
 print("<a href=\"https://twitter.com/#!/" + user + "\">@" + user + "</a>")
 
-p16 = re.compile('([A-Z]+)\((.*)\)[\u4e00-\u9fff\uf900-\ufaff]+') # Unicode CJKエリア 4E00-9FFF
-t16 = 'AMAZON(あまぞん)社' #全角丸括弧も？
+p16 = re.compile('([\u4e00-\u9fff\uf900-\ufaff]+)\(([A-Z]+)\)') # Unicode CJKエリア 4E00-9FFF
+t16 = '環太平洋連携協定(TPP)' #全角丸括弧も？
 p16.search(t16).groups() 
 # Unicode 漢字エリアについては http://tama-san.com/?p=196
 
