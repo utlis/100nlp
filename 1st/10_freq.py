@@ -7,6 +7,13 @@ with open("col2.txt", "r") as file:
 	for line in file:
 		counter[line.rstrip()] += 1
 
+class Counter(dict):
+	# 未定義のkeyに対して初期値0を返すdict
+	def __missing__(self, key):
+		return 0
+
+c = Counter() # same as Hash.new(0) in Ruby
+
 outset = ((k, counter[k]) for k in sorted(counter, key=counter.get, reverse=True))
 
 with open("freq_ranking.txt", "w") as out:
