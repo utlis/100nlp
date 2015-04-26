@@ -8,18 +8,10 @@ uni_index = [1, 5, 6, 7, 8, 9, 15, 16, 19]
 
 words = sentence.split(" ")
 
-def cp_striped(t):
-	if t.endswith((',', '.')):
-		return t.rsplit(',.')
-	else:
-		return t
-
-i = 0
-for word in words:
+for i, word in enumerate(words):
 	if i+1 in uni_index:
 		outcome[word[0]] = i
 	else:
 		outcome[word[:2]] = i
-	i += 1
 
 print(outcome)

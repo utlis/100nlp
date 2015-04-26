@@ -7,11 +7,20 @@ arr = list(text)
 odd = ""
 even = ""
 
-for i in range(len(text)):
+for i, char in enumerate(text):
 	if i % 2 == 0:
-		even += text[i]
+		even += char
 	else:
-		odd += text[i]
+		odd += char
+
+#イケてない書き方
+#for i in range(len(text)):
+#	if i % 2 == 0:
+#		even += text[i]
+#	else:
+#		odd += text[i]
+
+#print(text[::2])  # 1行で
 
 print(odd)
 print(even)
