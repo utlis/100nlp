@@ -8,6 +8,7 @@ import re
 
 def cipher(string):
 	small_alph = re.compile("[a-z]")
+	# islower()を使えばreがいらない
 	result = []
 	for char in string:
 		if small_alph.match(char):

@@ -7,6 +7,8 @@ source = list(text)
 print(''.join(reversed(source)))
 # reversed()はコピー、[list].reverseは破壊的
 
+# text[::-1]
+
 #outcome = ""
 #for i in source:
 #	outcome += source.pop()

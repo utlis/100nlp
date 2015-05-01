@@ -8,8 +8,12 @@ def weather(x, y, z):
 	"""
 	print(str(x)+"時の"+str(y)+"は"+str(z))
 
-
+# コマンドラインアプリ化する
+# import sys
+# sys.argv = [filename, 1, 2, 3]
 
 from string import Template
 s = Template('$x時の$yは$z')  # as usual, you have to diliminate keys by whitespace, but unicode works as well
 s.substitute(x='12', y="気温", z='22.4')
+
+# print "%d時の%sは%.1f" % (x, y, z)
