@@ -24,6 +24,6 @@ def main():
 if __name__ == '__main__':
 	main()
 
-# > sed -e "s/\t/ /g" address.txt > address_t2s_sed.txt
-# > cat address.txt | tr "\t" " " > address_t2s_tr.txt
-# > expand -t 1 address.txt > address_t2s_expand.txt
+# > sed -e "s/\t/ /g" hightemp.txt > hightemp_t2s_sed.txt
+# > cat hightemp.txt | tr "\t" " " > hightemp_t2s_tr.txt
+# > expand -t 1 hightemp.txt > hightemp_t2s_expand.txt

@@ -26,5 +26,5 @@ while n > 0:
 
 f.close()
 
-# tail -n N address.txt
+# tail -n N hightemp.txt
 # readlines()[-n-1:-1]

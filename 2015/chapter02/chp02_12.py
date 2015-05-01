@@ -19,5 +19,5 @@ f.close()
 col1.close()
 col2.close()
 
-# > cut -f 1 address.txt > col1_cut.txt
-# > cut -f 2 address.txt > col2_cut.txt
+# > cut -f 1 hightemp.txt > col1_cut.txt
+# > cut -f 2 hightemp.txt > col2_cut.txt

@@ -34,3 +34,5 @@ def main():
 
 if __name__ == '__main__':
 	main()
+
+# sort col1.txt | uniq -c | sort -n -r | less  > freq_ranking.txt

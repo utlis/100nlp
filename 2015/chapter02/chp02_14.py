@@ -14,5 +14,5 @@ while n > 0:
 
 f.close()
 
-# head -n N address.txt
+# head -n N hightemp.txt
 # readlines() => list
