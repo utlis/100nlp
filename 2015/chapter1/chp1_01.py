@@ -13,7 +13,6 @@ for i, char in enumerate(text):
 	else:
 		odd += char
 
-#イケてない書き方
 #for i in range(len(text)):
 #	if i % 2 == 0:
 #		even += text[i]
