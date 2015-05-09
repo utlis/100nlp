@@ -33,3 +33,9 @@ for file in files:
 source.close()
 
 # split hightemp.txt -l line_number
+# optparse.OptionParser()
+# .add_option()
+
+"""
+splitに合わせて実装するのが正解？
+"""

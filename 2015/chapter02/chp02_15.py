@@ -27,4 +27,4 @@ while n > 0:
 f.close()
 
 # tail -n N hightemp.txt
-# readlines()[-n-1:-1]
+# readlines()[-N:]
