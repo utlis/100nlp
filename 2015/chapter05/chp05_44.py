@@ -16,7 +16,7 @@ def sentence2dot(i, paired_sentence):
 	body = ''
 	for chunk_pair in paired_sentence:
 		former, latter = chunk_pair
-		body += ('"'+str(former)+'"' + '->' + '"'+str(latter)+'"; ')
+		body += ('"'+str(former)+'"->"'+str(latter)+'"; ')
 
 	dot_string = header + body_head + body + '}'
 

@@ -29,14 +29,15 @@ def chunk_reader(cabochafile):
 	for line in cabochafile:
 		if line == "EOS\n":
 			for i, c in enumerate(sentence[:-1]):
-				if c.dst != -1:	sentence[c.dst].srcs.append(i)
+				if c.dst != -1:
+					sentence[c.dst].srcs.append(i)
 				# 係り元は再帰的にとらない
 
 			sentences.append(sentence)
 			# shallow/deep copy
 			# del sentence[:]  # 参照
 			sentence = []
-		elif line[0] == "*":  
+		elif line[0] == "*":
 			#sentence.append(line)
 			#if len(sentence) > 0:
 				#sentence.append(chunk)
