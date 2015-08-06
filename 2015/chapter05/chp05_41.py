@@ -22,6 +22,15 @@ class Chunk():
 			surfs = [morph.surface for morph in self.morphs if morph.pos != '記号']
 			return "".join(surfs)
 
+	def include_pos(self, pos):
+		return pos in [morph.pos for morph in self.morphs]
+
+	def morphs_of_pos(self, pos):
+		return list(filter(lambda morph: morph.pos==pos, self.morphs))
+
+	def morphs_of_pos1(self, pos1):
+		return list(filter(lambda morph: morph.pos1==pos1, self.morphs))
+
 
 def chunk_reader(cabochafile):
 	sentences = []
