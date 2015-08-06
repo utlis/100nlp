@@ -49,5 +49,6 @@ if __name__ == '__main__':
     for verbcase_pat in verbcase_pats:
         for verb, src_chunks in verbcase_pat:
             col1 = verb.morphs_of_pos('動詞')[-1].base
-            col2 = [src_chunk.morphs_of_pos1('格助詞')[-1].base for src_chunk in src_chunks]
-            print(col1, " ".join(sorted(col2)), sep='\t')
+            cases = [src_chunk.morphs_of_pos1('格助詞')[-1].base for src_chunk in src_chunks]
+            col2 = " ".join(sorted(cases))
+            print(col1, col2, sep='\t')
