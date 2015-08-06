@@ -26,10 +26,10 @@ class Chunk():
 		return pos in [morph.pos for morph in self.morphs]
 
 	def morphs_of_pos(self, pos):
-		return list(filter(lambda morph: morph.pos==pos, self.morphs))
+		return [morph for morph in self.morphs if morph.pos==pos]
 
 	def morphs_of_pos1(self, pos1):
-		return list(filter(lambda morph: morph.pos1==pos1, self.morphs))
+		return [morph for morph in self.morphs if morph.pos1==pos1]
 
 
 def chunk_reader(cabochafile):
