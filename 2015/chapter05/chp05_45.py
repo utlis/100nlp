@@ -14,7 +14,6 @@
 「する」「見る」「与える」という動詞の格パターン（コーパス中で出現頻度の高い順に並べよ）
 """
 
-import sys
 import chp05_41 as p41
 
 
@@ -34,6 +33,7 @@ def exreact_verbcase_pat(sentence):
                 verbcase_pat.append((chunk, src_chunks_case))
 
     return verbcase_pat
+
 
 def main():
     sentences = p41.main()

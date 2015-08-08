@@ -3,7 +3,6 @@
 40に加えて，文節を表すクラスChunkを実装せよ．このクラスは形態素（Morphオブジェクト）のリスト（morphs），係り先文節インデックス番号（dst），係り元文節インデックス番号のリスト（srcs）をメンバ変数に持つこととする．さらに，入力テキストのCaboChaの解析結果を読み込み，１文をChunkオブジェクトのリストとして表現し，8文目の文節の文字列と係り先を表示せよ．第5章の残りの問題では，ここで作ったプログラムを活用せよ
 """
 
-
 import chp05_40 as p40
 
 
@@ -17,7 +16,7 @@ class Chunk():
 	#def print_all(self):
 		#return self.morphs + "\t" + self.dst + ", " + self.srcs
 
-	def __str__(self):
+	def __repr__(self):
 		if self.morphs:
 			surfs = [morph.surface for morph in self.morphs if morph.pos != '記号']
 			return "".join(surfs)
@@ -64,6 +63,7 @@ def chunk_reader(cabochafile):
 
 
 def main():
+	#with open("neko_short.txt", 'r') as cabochafile:
 	with open("neko.txt.cabocha", 'r') as cabochafile:
 		sentences = chunk_reader(cabochafile)
 
