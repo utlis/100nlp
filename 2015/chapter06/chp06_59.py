@@ -6,7 +6,10 @@ Stanford Core NLPの句構造解析の結果（S式）を読み込み，文中�
 import sys
 import chp06_56 as p56
 
+# nltk.Tree でS式をTreeなObjectで操作できる
+
 class TreeParser():
+
 	def __init__(self):
 		self.root = None
 		self._stack = [[]]
@@ -38,17 +41,25 @@ class TreeParser():
 		return self._recursive_finder(s, tag)
 
 	def _recursive_finder(self, lst, tag):
-		if isinstance(lst, list):
-			result = []
-			for i in lst:
-				if isinstance(i, list):
-					result += self._recursive_finder(i, tag)
-				else:  #string
-					if i == tag:
-						result.append(lst)
-			return result
-		else:
-			raise
+		result = []
+
+		if lst[0] == tag:
+			result.append(lst)
+
+		for i in lst[1:]:
+			if isinstance(i, list):
+				result.extend(self._recursive_finder(i, tag))
+
+		return result
+
+		## below script has a bug
+
+		#for i in lst:
+		#	if isinstance(i, list):
+		#		result += self._recursive_finder(i, tag)
+		#	else:  #string
+		#		if i == tag:
+		#			result.append(lst)
 
 
 def main(xmlfilename, tag):

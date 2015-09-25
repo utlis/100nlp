@@ -11,6 +11,10 @@ WORD = re.compile(r"<word>(\w+)</word>")
 LEMMA = re.compile(r"<lemma>(\w+)</lemma>")
 POS = re.compile(r"<POS>(\w+)</POS>")
 
+# 親を無視して該当タグをすべて上から順番にとってくる
+# ElementTree.iter(tag)  # ET method
+# ElementTree.findall('.//token')  # XPath
+
 with open(sys.argv[1], 'r') as xmlfile:
 	for line in xmlfile:
 		if len(token) == 3:

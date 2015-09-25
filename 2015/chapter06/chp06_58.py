@@ -47,4 +47,5 @@ if __name__ == '__main__':
 	dep_triples = main(sys.argv[1])
 	for dep_triple in dep_triples:
 		for dt in dep_triple:
-			print('\t'.join(dt))
+			#print('\t'.join(dt))
+			print(dt[1], dt[0], dt[2], sep="\t")

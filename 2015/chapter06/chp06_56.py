@@ -69,12 +69,12 @@ def sentence_prettify(sentence):
 	# curry function 関数の部分適用
 	partials = map(
 		lambda x: partial(x[0], x[1]),
-		[ # carefully order regex
+		[  # carefully order regex
 			(LRB.sub, '('),
 			(RRB.sub, ')'),
 			(LDQ.sub, '\"'),
 			(RDQ.sub, '\"'),
-			(SQS.sub, "'s"), # not need?
+			(SQS.sub, "'s"),  # not need?
 			(SQ.sub, "'"),
 			(NOTATION.sub, r'\1'),
 		])

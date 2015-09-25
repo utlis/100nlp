@@ -11,6 +11,7 @@ def dependency2dot(i, dependency):
 	header = "digraph sentence{0} ".format(i)
 	body_head = "{ graph [rankdir = LR]; "
 	body = ''
+	# idxを考慮しないと同じ単語が1文中に出てきたとき重複が起こる
 	for dep in dependency:
 		governor, dependent, label = dep.find('governor').text, dep.find('dependent').text, dep.get('type')
 		body += ('"{gov}"->"{dep}" [label = "{label}"]; '.format(gov=governor, dep=dependent, label=label))

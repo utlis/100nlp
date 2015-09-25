@@ -7,6 +7,7 @@ import re
 import sys
 
 END_PAT = re.compile(r"(?P<punct>[\.;:\?\!]) (?P<head>[A-Z])")
+# []内では特殊文字は機能を失う！('\'不要)
 
 with open(sys.argv[1], 'r') as textfile:
 	for line in textfile:
