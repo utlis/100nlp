@@ -9,12 +9,13 @@
 73で学習したロジスティック回帰モデルの中で,重みの高い素性トップ10と,重みの低い素性トップ10を確認せよ.
 """
 
+import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 
-#from nltk import word_tokenize
-#from nltk.stem import WordNetLemmatizer
+from nltk import word_tokenize
+from nltk.stem import WordNetLemmatizer
 #from nltk.stem.porter import PorterStemmer
 
 #from collections import OrderedDict
@@ -22,26 +23,25 @@ from sklearn.pipeline import Pipeline
 #import exp08_71 as p71
 
 # exercise 72
-#class LemmaTokenizer(object):
+class LemmaTokenizer(object):
 
-#	def __init__(self):
-#		self.wnl = WordNetLemmatizer()
+	def __init__(self):
+		self.wnl = WordNetLemmatizer()
 
-#	def __call__(self, doc):
-#		return [self.wnl.lemmatize(t) for t in word_tokenize(doc)]
+	def __call__(self, doc):
+		return [self.wnl.lemmatize(t) for t in word_tokenize(doc)]
 
 
 def get_sentiments():
 	sentiments = open('sentiment.txt', 'r').readlines()
-	x = [line[3:] for line in sentiments]
-	y = [int(line[:3].strip()) for line in sentiments]
+	x = np.array([line[3:] for line in sentiments])
+	y = np.array([int(line[:3].strip()) for line in sentiments])
 
 	return x, y
 
 
 def create_model():
-	tfidf = TfidfVectorizer(stop_words='english')
-		#, tokenizer=LemmaTokenizer())
+	tfidf = TfidfVectorizer(stop_words='english', tokenizer=LemmaTokenizer())
 	logint = LogisticRegression()
 	pipeline = Pipeline([('vect', tfidf), ('clf', logint)])
 
@@ -94,9 +94,9 @@ def exp76(pipeline):
 	with open("exp76_output.tsv", 'w') as output:
 		for actual, (p_neg, p_pos) in zip(y, y_pred):
 			if p_neg > p_pos:
-				print(actual, "-1", "{0:.3f}".format(p_neg), file=output)
+				print(actual, "-1", "{0:.3f}".format(p_neg), sep='\t', file=output)
 			else:
-				print(actual, "1", "{0:.3f}".format(p_pos), file=output)
+				print(actual, "1", "{0:.3f}".format(p_pos), sep='\t', file=output)
 
 
 def main():
