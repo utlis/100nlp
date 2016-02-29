@@ -1,7 +1,7 @@
 100nlp
 ======
 
-Code repository for Python Workshop in LISLab: through tackling NLP100
+Code repository for Python Workshop in UT LISLab: through tackling NLP100
 
 ## About
 LISLab における Python 勉強会で使うファイルやサンプルスクリプトを共有するためのリポジトリです。Python 勉強会では[言語処理100本ノック](http://www.cl.ecei.tohoku.ac.jp/nlp100/)（以下、**100本ノック**）に取り組みながら、Pythonの基本と言語処理に役立つプログラミング技術を習得することを目指します。
