@@ -67,10 +67,14 @@ def main():
 
     #02:「パトカー」＋「タクシー」＝「パタトクカシーー」
     #「パトカー」＋「タクシー」の文字を先頭から交互に連結して文字列「パタトクカシーー」を得よ．
-    s2_a = list('パトカー')
-    s2_b = list('タクシー')
-    print('{0}{1}{2}{3}{4}{5}{6}{7}{8}'.format('02:',s2_a[0],s2_b[0],s2_a[1],s2_b[1],s2_a[2],s2_b[2],s2_a[3],s2_b[3]))
-
+    # s2_a = list('パトカー')
+    # s2_b = list('タクシー')
+    # print('{0}{1}{2}{3}{4}{5}{6}{7}{8}'.format('02:',s2_a[0],s2_b[0],s2_a[1],s2_b[1],s2_a[2],s2_b[2],s2_a[3],s2_b[3]))
+    s2_a = 'パトカー'
+    s2_b = 'タクシー'
+    for a in zip(s2_a, s2_b):
+        print(''.join(a), end='')
+    print()
     #03:円周率
     #"Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."という文を単語に分解し，各単語の（アルファベットの）文字数を先頭から出現順に並べたリストを作成せよ．
     s3 = 'Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics.'
