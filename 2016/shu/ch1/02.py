@@ -8,6 +8,8 @@ str1 = u'パトカー'
 str2 = u'タクシー'
 str3 = u''
 
+# 同じ長さの文字列なのでzip()が使える．
+
 for a, b in zip(str1, str2):
     str3 += a + b
 
