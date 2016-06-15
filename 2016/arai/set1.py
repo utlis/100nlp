@@ -8,3 +8,18 @@ print("".join(moji))
 str = u"パタトクカシーー"
 #str[::2]
 print(str[::2])
+#02:「パトカー」＋「タクシー」＝「パタトクカシーー」
+    #「パトカー」＋「タクシー」の文字を先頭から交互に連結して文字列「パタトクカシーー」を得よ．
+str2=u"パトカー"
+str3=u"タクシー"
+str4 = "".join(a+b for a, b in zip (str2, str3))
+print(str4)
+#03:円周率
+#str5="Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics.".split(" ")
+#print(str5)
+#print len(str5)
+#str6=str5.trim(",.")
+#print(str6)
+str5= "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
+str6= [len(str7.strip(",.")) for str7 in str5.split()]
+print(str6)
