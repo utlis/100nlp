@@ -12,6 +12,7 @@ words = str.split()
 index = [1, 5, 6, 7, 8, 9, 15, 16, 19]
 dict = {}
 
+# 1から数えはじめる（デフォルトでは0から）
 for i, word in enumerate(words, start=1):
     if i in index:
         dict[word[:1]] = i
