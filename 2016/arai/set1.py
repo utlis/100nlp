@@ -23,3 +23,19 @@ print(str4)
 str5= "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
 str6= [len(str7.strip(",.")) for str7 in str5.split()]
 print(str6)
+#4
+moji6= "Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
+moji7= {word[:2-(i in (1,5,6,7,8,9,15,16,19))]:i for i, word in enumerate(moji6.replace(".", "").split(), 1)}
+print(moji7)
+#5
+def ngram(s, n): 
+    return {tuple(s[x:x+n]) for x in range(len(s)-n+1)}
+
+s = "I am an NLPer"
+print(ngram(s, 2))
+print(ngram([y.strip(".,") for y in s.split()], 2))
+#7
+#coding=utf_8
+def f(a, b, c): return u"%s時の%sは%s" % (a, b, c)
+
+print(f(12, u"気温", 22.4))
