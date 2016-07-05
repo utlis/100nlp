@@ -1,0 +1,40 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>100本ノック　＃04</title>
+
+</head>
+
+<body>
+
+  <script type = "text/javascript">
+<!--
+var stro = "Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can. ";
+var stra = stro.replace(/\./gi,"");  /* when I replace all of . to "", /gi is needed. -> */
+
+var dan = stra.split(" ");
+var num = [1, 5, 6, 7, 8, 9, 15, 16, 19];
+var j = 0;
+//var ysan = {"H": 1, "He": 2 }; //out['H']
+var ysan = {};
+ysan = {gl: "H", sn: 1};
+//ysan.gl = "H"; ysan.sn = 1;
+//document.write('ysan[ysan.gl]: '  + ysan[ysan.gl] + '<br>');
+
+
+  for(var i = 1 in dan){
+    if (i == num[j]-1) {
+      ysan = {gl: dan[i].charAt(0), sn: ++i} ;  /* substring(0,1) 구간의 문자열 반환 */
+      j++;
+    } else {
+      ysan = {gl: [dan[i].substring(0,2)], sn: ++i};/* charAt(1)*/
+    }
+    document.write(ysan.gl +': '  + ysan.sn + '<br>');
+  }
+
+
+  // -->
+  </script>
+
+</body>
+</html>
