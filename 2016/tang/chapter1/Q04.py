@@ -2,7 +2,7 @@
 
 sequence = "Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
 
-list04 = list(sequence.split())
+list04 = sequence.split()
 list04 = [a.strip(',.') for a in list04]
 key04 = list(range(len(list04)))
 
@@ -14,6 +14,6 @@ for num in dict04:
 	if num+1 in target04:
 		dict04[num] = dict04[num][0]
 	else:
-		dict04[num] = dict04[num][0:2]
+		dict04[num] = dict04[num][:2]
 
 print(dict04)
