@@ -5,6 +5,7 @@
 #
 
 def nGram(sentence, n):
+    # intもlongも整数型, longとは？
     if isinstance(n, (int, long)):
 
         word_results = []
