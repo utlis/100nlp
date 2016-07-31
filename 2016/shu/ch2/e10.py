@@ -12,7 +12,8 @@ def lineCount(path):
     file.close()
     return lines
 
-print lineCount('hightemp.txt')
+if __name__ == '__main__':
+    print lineCount('hightemp.txt')
 
 
 # wc -l hightemp.txt

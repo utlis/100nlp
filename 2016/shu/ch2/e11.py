@@ -13,7 +13,8 @@ def tabToSpace(path):
     file.close()
     return results
 
-print tabToSpace('hightemp.txt')
+if __name__ == '__main__':
+    print tabToSpace('hightemp.txt')
 
 # sed s/$'\t'/' '/g hightemp.txt
 # tr '\t' ' ' < hightemp.txt

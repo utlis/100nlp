@@ -9,13 +9,14 @@ def writeCols(path, col):
     column = ''
     for line in filein:
         columns = line.split('\t')
-        column += columns[col-1] + '\r'
+        column += columns[col-1] + '\n'
     filename = 'col' + str(col) + '.txt'
     fileout = open(filename, 'w')
     fileout.write(column)
     fileout.close()
 
-writeCols('hightemp.txt', 1)
-writeCols('hightemp.txt', 2)
+if __name__ == '__main__':
+    writeCols('hightemp.txt', 1)
+    writeCols('hightemp.txt', 2)
 
 # cut -f1,2 hightemp.txt

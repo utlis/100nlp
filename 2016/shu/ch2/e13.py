@@ -11,8 +11,14 @@ def fileMerge(filea, fileb):
     linesb = list(file_inb.readlines())
     linec = ''
     for linea, lineb in zip(linesa, linesb):
-        linec += linea + '\t' + lineb
+        linec += linea.strip('\n') + '\t' + lineb
     file_out = open('results.txt', 'w')
     file_out.write(linec)
+    file_ina.close()
+    file_inb.close()
+    file_out.close()
 
-fileMerge('col1.txt', 'col2.txt')
+if __name__ == '__main__':
+    fileMerge('col1.txt', 'col2.txt')
+
+# paste col1.txt col2.txt
