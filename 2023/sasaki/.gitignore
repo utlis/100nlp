@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+
+02_unix/*.txt
+03_regex/*.txt
+!02_unix/popular-names.txt
+dist/
