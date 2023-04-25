@@ -1,0 +1,2 @@
+The file popular-names.txt stores names of babies born in US with their genders, numbers of births, and years of births in tab-separated format.
+Create a program with the specifications below. Run the program with popular-names.txt as an input. Furthermore, confirm that the same (similar) result can be obtained by running a UNIX command.
