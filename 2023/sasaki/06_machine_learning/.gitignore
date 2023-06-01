@@ -1,0 +1,6 @@
+*.txt
+*.csv
+*.pickle
+!test.txt
+!train.txt
+!valid.txt
