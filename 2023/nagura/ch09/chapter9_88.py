@@ -196,44 +196,42 @@ rand_search_cv = RandomizedSearchCV(keras_reg, param_disribs, return_train_score
     # cv = n fold cross-validation spilitting strategy
 
 rand_search_cv.fit(np.array(X_train_onehot), np.array(y_train), epochs=5)
-# epoch5, training data全部, n_iter 30-100くらい
-# だいたい2040-
-
+# epoch5, training data全部, n_iter 30-100くらいで試す
 # scikit.learnはテンソル型を読み込めないのでデータをnp.arrayにして渡す
 
 st.write(rand_search_cv.best_params_)
 
 
 ### もしGridSearchをするのなら..（以下はCNN modelの場合）
-#param_grid = {
-#    'optimizer': ['adam', 'adagrad'],
-#    'n_hidden': [1,2,3],
-#    # add parameters 
-#}
-#
-#def build_cnn_model(n_hidden=1, n_neurons=30, input_shape=[max_len, id_count], optimizer="adam"):
-#    model = keras.models.Sequential()
-#    model.add(keras.layers.Conv1D(3,3,strides=1,padding='same',activation='relu',input_shape=input_shape))
-#    model.add(keras.layers.MaxPooling1D(2))
-#    model.add(keras.layers.Flatten())
-#    for i in range(n_hidden):
-#        model.add(keras.layers.Dense(n_neurons, activation='relu'))
-#    model.add(keras.layers.Dense(4,activation="softmax"))
-#    model.compile(loss='sparse_categorical_crossentropy',
-#                  optimizer=optimizer,
-#                  )
-#    return model
-#
-#keras_reg = keras.wrappers.scikit_learn.KerasRegressor(build_cnn_model)
-#
-#keras_reg.fit(X_train_onehot, np.array(y_train), epochs=10,
-#              validation_data=(X_valid_onehot, np.array(y_valid)),
-#              validation_batch_size=200)
-#
-#grid_search = GridSearchCV(keras_reg, param_grid, return_train_score=True)
-#grid_search.fit(np.array(X_train_onehot), np.array(y_train))
-#
-#st.write(grid_search.best_params_)
+param_grid = {
+    'optimizer': ['adam', 'adagrad'],
+    'n_hidden': [1,2,3],
+    # add parameters 
+}
+
+def build_cnn_model(n_hidden=1, n_neurons=30, input_shape=[max_len, id_count], optimizer="adam"):
+    model = keras.models.Sequential()
+    model.add(keras.layers.Conv1D(3,3,strides=1,padding='same',activation='relu',input_shape=input_shape))
+    model.add(keras.layers.MaxPooling1D(2))
+    model.add(keras.layers.Flatten())
+    for i in range(n_hidden):
+        model.add(keras.layers.Dense(n_neurons, activation='relu'))
+    model.add(keras.layers.Dense(4,activation="softmax"))
+    model.compile(loss='sparse_categorical_crossentropy',
+                  optimizer=optimizer,
+                  )
+    return model
+
+keras_reg = keras.wrappers.scikit_learn.KerasRegressor(build_cnn_model)
+
+keras_reg.fit(X_train_onehot, np.array(y_train), epochs=10,
+              validation_data=(X_valid_onehot, np.array(y_valid)),
+              validation_batch_size=200)
+
+grid_search = GridSearchCV(keras_reg, param_grid, return_train_score=True)
+grid_search.fit(np.array(X_train_onehot), np.array(y_train))
+
+st.write(grid_search.best_params_)
 
 ### grid searchをもし手で書くと...（CNN modelの場合）
 #history_all = pd.DataFrame()
