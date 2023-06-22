@@ -1,0 +1,920 @@
+2023-06-21 22:27:29.610
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run chapter9_88.py [ARGUMENTS]
+Fitting 2 folds for each of 30 candidates, totalling 60 fits
+Epoch 1/3
+167/167 [==============================] - 10s 55ms/step - loss: 0.7845
+Epoch 2/3
+167/167 [==============================] - 9s 56ms/step - loss: 0.4018
+Epoch 3/3
+167/167 [==============================] - 10s 57ms/step - loss: 0.2319
+167/167 [==============================] - 4s 25ms/step
+167/167 [==============================] - 4s 24ms/step
+[CV 1/2] END activation=tanh, arch=CNN-RNN-comb, filter_num=35, kernel_size=10, learning_rate=0.0058020225866674035, n_hidden=3, rnn_unit_size=70, stride=3;, score=(train=0.710, test=0.290) total time=  39.3s
+Epoch 1/3
+167/167 [==============================] - 10s 57ms/step - loss: 0.8504
+Epoch 2/3
+167/167 [==============================] - 10s 58ms/step - loss: 0.4516
+Epoch 3/3
+167/167 [==============================] - 10s 57ms/step - loss: 0.2414
+167/167 [==============================] - 4s 24ms/step
+167/167 [==============================] - 4s 24ms/step
+[CV 2/2] END activation=tanh, arch=CNN-RNN-comb, filter_num=35, kernel_size=10, learning_rate=0.0058020225866674035, n_hidden=3, rnn_unit_size=70, stride=3;, score=(train=0.797, test=0.325) total time=  39.3s
+Epoch 1/3
+167/167 [==============================] - 8s 45ms/step - loss: 0.9001
+Epoch 2/3
+167/167 [==============================] - 8s 46ms/step - loss: 0.6744
+Epoch 3/3
+167/167 [==============================] - 8s 45ms/step - loss: 0.6415
+167/167 [==============================] - 3s 19ms/step
+167/167 [==============================] - 3s 18ms/step
+[CV 1/2] END activation=tanh, arch=Bi-RNN, filter_num=25, kernel_size=3, learning_rate=0.0030949018913926517, n_hidden=3, rnn_unit_size=90, stride=2;, score=(train=0.301, test=0.152) total time=  32.3s
+Epoch 1/3
+167/167 [==============================] - 8s 44ms/step - loss: 0.9282
+Epoch 2/3
+167/167 [==============================] - 8s 46ms/step - loss: 0.6547
+Epoch 3/3
+167/167 [==============================] - 8s 49ms/step - loss: 0.5197
+167/167 [==============================] - 3s 19ms/step
+167/167 [==============================] - 3s 19ms/step
+[CV 2/2] END activation=tanh, arch=Bi-RNN, filter_num=25, kernel_size=3, learning_rate=0.0030949018913926517, n_hidden=3, rnn_unit_size=90, stride=2;, score=(train=0.551, test=0.300) total time=  33.0s
+Epoch 1/3
+167/167 [==============================] - 4s 19ms/step - loss: 1.1764
+Epoch 2/3
+167/167 [==============================] - 3s 19ms/step - loss: 1.0226
+Epoch 3/3
+167/167 [==============================] - 3s 20ms/step - loss: 0.7912
+167/167 [==============================] - 2s 11ms/step
+167/167 [==============================] - 2s 11ms/step
+[CV 1/2] END activation=relu, arch=CNN-RNN-comb, filter_num=25, kernel_size=2, learning_rate=0.023069217114104697, n_hidden=2, rnn_unit_size=50, stride=1;, score=(train=0.327, test=0.215) total time=  18.2s
+Epoch 1/3
+167/167 [==============================] - 4s 20ms/step - loss: 1.2170
+Epoch 2/3
+167/167 [==============================] - 3s 20ms/step - loss: 1.1349
+Epoch 3/3
+167/167 [==============================] - 3s 20ms/step - loss: 1.0193
+167/167 [==============================] - 2s 11ms/step
+167/167 [==============================] - 2s 12ms/step
+[CV 2/2] END activation=relu, arch=CNN-RNN-comb, filter_num=25, kernel_size=2, learning_rate=0.023069217114104697, n_hidden=2, rnn_unit_size=50, stride=1;, score=(train=0.138, test=0.089) total time=  18.7s
+Epoch 1/3
+167/167 [==============================] - 5s 23ms/step - loss: 1.0263
+Epoch 2/3
+167/167 [==============================] - 4s 23ms/step - loss: 0.6105
+Epoch 3/3
+167/167 [==============================] - 4s 24ms/step - loss: 0.3904
+167/167 [==============================] - 2s 13ms/step
+167/167 [==============================] - 2s 14ms/step
+[CV 1/2] END activation=sigmoid, arch=Bi-RNN, filter_num=15, kernel_size=11, learning_rate=0.0014608184393803537, n_hidden=4, rnn_unit_size=20, stride=4;, score=(train=0.646, test=0.414) total time=  21.1s
+Epoch 1/3
+167/167 [==============================] - 5s 23ms/step - loss: 1.0293
+Epoch 2/3
+167/167 [==============================] - 4s 23ms/step - loss: 0.6836
+Epoch 3/3
+167/167 [==============================] - 4s 24ms/step - loss: 0.4974
+167/167 [==============================] - 2s 13ms/step
+167/167 [==============================] - 3s 15ms/step
+[CV 2/2] END activation=sigmoid, arch=Bi-RNN, filter_num=15, kernel_size=11, learning_rate=0.0014608184393803537, n_hidden=4, rnn_unit_size=20, stride=4;, score=(train=0.553, test=0.408) total time=  20.1s
+Epoch 1/3
+167/167 [==============================] - 8s 43ms/step - loss: 1.0658
+Epoch 2/3
+167/167 [==============================] - 7s 44ms/step - loss: 0.6736
+Epoch 3/3
+167/167 [==============================] - 7s 44ms/step - loss: 0.4179
+167/167 [==============================] - 3s 19ms/step
+167/167 [==============================] - 3s 19ms/step
+[CV 1/2] END activation=relu, arch=Bi-RNN, filter_num=30, kernel_size=14, learning_rate=0.005311607526774204, n_hidden=1, rnn_unit_size=70, stride=2;, score=(train=0.587, test=0.216) total time=  31.7s
+Epoch 1/3
+167/167 [==============================] - 7s 40ms/step - loss: 1.0459
+Epoch 2/3
+167/167 [==============================] - 7s 44ms/step - loss: 0.6560
+Epoch 3/3
+167/167 [==============================] - 7s 44ms/step - loss: 0.4456
+167/167 [==============================] - 3s 18ms/step
+167/167 [==============================] - 3s 18ms/step
+[CV 2/2] END activation=relu, arch=Bi-RNN, filter_num=30, kernel_size=14, learning_rate=0.005311607526774204, n_hidden=1, rnn_unit_size=70, stride=2;, score=(train=0.656, test=0.320) total time=  30.8s
+Epoch 1/3
+167/167 [==============================] - 5s 22ms/step - loss: 0.9457
+Epoch 2/3
+167/167 [==============================] - 4s 23ms/step - loss: 0.5299
+Epoch 3/3
+167/167 [==============================] - 4s 23ms/step - loss: 0.3199
+167/167 [==============================] - 2s 13ms/step
+167/167 [==============================] - 2s 13ms/step
+[CV 1/2] END activation=sigmoid, arch=Bi-RNN, filter_num=15, kernel_size=9, learning_rate=0.003769832382469917, n_hidden=2, rnn_unit_size=20, stride=1;, score=(train=0.631, test=0.394) total time=  20.2s
+Epoch 1/3
+167/167 [==============================] - 5s 22ms/step - loss: 0.8894
+Epoch 2/3
+167/167 [==============================] - 4s 23ms/step - loss: 0.4343
+Epoch 3/3
+167/167 [==============================] - 4s 22ms/step - loss: 0.2255
+167/167 [==============================] - 2s 12ms/step
+167/167 [==============================] - 2s 13ms/step
+[CV 2/2] END activation=sigmoid, arch=Bi-RNN, filter_num=15, kernel_size=9, learning_rate=0.003769832382469917, n_hidden=2, rnn_unit_size=20, stride=1;, score=(train=0.738, test=0.468) total time=  19.8s
+Epoch 1/3
+167/167 [==============================] - 3s 14ms/step - loss: 0.8607
+Epoch 2/3
+167/167 [==============================] - 2s 13ms/step - loss: 0.3298
+Epoch 3/3
+167/167 [==============================] - 2s 14ms/step - loss: 0.0832
+167/167 [==============================] - 2s 8ms/step
+167/167 [==============================] - 1s 8ms/step
+[CV 1/2] END activation=tanh, arch=CNN-RNN-comb, filter_num=20, kernel_size=3, learning_rate=0.0006996609222396219, n_hidden=2, rnn_unit_size=20, stride=3;, score=(train=0.996, test=0.395) total time=  14.9s
+Epoch 1/3
+167/167 [==============================] - 3s 14ms/step - loss: 0.8891
+Epoch 2/3
+167/167 [==============================] - 2s 13ms/step - loss: 0.3197
+Epoch 3/3
+167/167 [==============================] - 2s 13ms/step - loss: 0.0991
+167/167 [==============================] - 2s 8ms/step
+167/167 [==============================] - 1s 8ms/step
+[CV 2/2] END activation=tanh, arch=CNN-RNN-comb, filter_num=20, kernel_size=3, learning_rate=0.0006996609222396219, n_hidden=2, rnn_unit_size=20, stride=3;, score=(train=0.982, test=0.499) total time=  14.9s
+Epoch 1/3
+167/167 [==============================] - 9s 48ms/step - loss: 1.1073
+Epoch 2/3
+167/167 [==============================] - 9s 53ms/step - loss: 0.6645
+Epoch 3/3
+167/167 [==============================] - 9s 53ms/step - loss: 0.4447
+167/167 [==============================] - 4s 21ms/step
+167/167 [==============================] - 4s 22ms/step
+[CV 1/2] END activation=sigmoid, arch=Bi-RNN, filter_num=20, kernel_size=5, learning_rate=0.0006059846803382452, n_hidden=2, rnn_unit_size=90, stride=3;, score=(train=0.617, test=0.437) total time=  35.7s
+Epoch 1/3
+167/167 [==============================] - 9s 49ms/step - loss: 1.3023
+Epoch 2/3
+167/167 [==============================] - 9s 54ms/step - loss: 0.9489
+Epoch 3/3
+167/167 [==============================] - 9s 55ms/step - loss: 0.5809
+167/167 [==============================] - 4s 22ms/step
+167/167 [==============================] - 4s 22ms/step
+[CV 2/2] END activation=sigmoid, arch=Bi-RNN, filter_num=20, kernel_size=5, learning_rate=0.0006059846803382452, n_hidden=2, rnn_unit_size=90, stride=3;, score=(train=0.542, test=0.443) total time=  36.5s
+Epoch 1/3
+167/167 [==============================] - 16s 88ms/step - loss: 0.6592
+Epoch 2/3
+167/167 [==============================] - 15s 91ms/step - loss: 0.1030
+Epoch 3/3
+167/167 [==============================] - 16s 95ms/step - loss: 0.0158
+167/167 [==============================] - 9s 52ms/step
+167/167 [==============================] - 9s 52ms/step
+[CV 1/2] END activation=tanh, arch=CNN-RNN-comb, filter_num=20, kernel_size=10, learning_rate=0.0010272025683152849, n_hidden=2, rnn_unit_size=60, stride=1;, score=(train=0.997, test=0.557) total time= 1.0min
+Epoch 1/3
+167/167 [==============================] - 16s 92ms/step - loss: 0.6548
+Epoch 2/3
+167/167 [==============================] - 16s 94ms/step - loss: 0.1071
+Epoch 3/3
+167/167 [==============================] - 16s 95ms/step - loss: 0.0123
+167/167 [==============================] - 9s 54ms/step
+167/167 [==============================] - 9s 54ms/step
+[CV 2/2] END activation=tanh, arch=CNN-RNN-comb, filter_num=20, kernel_size=10, learning_rate=0.0010272025683152849, n_hidden=2, rnn_unit_size=60, stride=1;, score=(train=0.998, test=0.594) total time= 1.0min
+Epoch 1/3
+167/167 [==============================] - 5s 23ms/step - loss: 0.8066
+Epoch 2/3
+167/167 [==============================] - 4s 24ms/step - loss: 0.2663
+Epoch 3/3
+167/167 [==============================] - 4s 25ms/step - loss: 0.0819
+167/167 [==============================] - 3s 15ms/step
+167/167 [==============================] - 3s 15ms/step
+[CV 1/2] END activation=relu, arch=Bi-RNN, filter_num=20, kernel_size=14, learning_rate=0.0031355899260377177, n_hidden=2, rnn_unit_size=20, stride=1;, score=(train=0.967, test=0.453) total time=  21.2s
+Epoch 1/3
+167/167 [==============================] - 5s 24ms/step - loss: 0.8091
+Epoch 2/3
+167/167 [==============================] - 4s 25ms/step - loss: 0.3014
+Epoch 3/3
+167/167 [==============================] - 4s 26ms/step - loss: 0.0862
+167/167 [==============================] - 3s 14ms/step
+167/167 [==============================] - 3s 15ms/step
+[CV 2/2] END activation=relu, arch=Bi-RNN, filter_num=20, kernel_size=14, learning_rate=0.0031355899260377177, n_hidden=2, rnn_unit_size=20, stride=1;, score=(train=0.984, test=0.481) total time=  21.6s
+Epoch 1/3
+167/167 [==============================] - 4s 19ms/step - loss: 0.8504
+Epoch 2/3
+167/167 [==============================] - 3s 19ms/step - loss: 0.3255
+Epoch 3/3
+167/167 [==============================] - 3s 19ms/step - loss: 0.1128
+167/167 [==============================] - 2s 11ms/step
+167/167 [==============================] - 2s 11ms/step
+[CV 1/2] END activation=relu, arch=CNN-RNN-comb, filter_num=20, kernel_size=4, learning_rate=0.001107742382090477, n_hidden=1, rnn_unit_size=90, stride=4;, score=(train=0.946, test=0.353) total time=  18.3s
+Epoch 1/3
+167/167 [==============================] - 4s 19ms/step - loss: 0.8429
+Epoch 2/3
+167/167 [==============================] - 3s 19ms/step - loss: 0.3156
+Epoch 3/3
+167/167 [==============================] - 3s 19ms/step - loss: 0.1272
+167/167 [==============================] - 2s 11ms/step
+167/167 [==============================] - 2s 11ms/step
+[CV 2/2] END activation=relu, arch=CNN-RNN-comb, filter_num=20, kernel_size=4, learning_rate=0.001107742382090477, n_hidden=1, rnn_unit_size=90, stride=4;, score=(train=0.903, test=0.243) total time=  17.8s
+Epoch 1/3
+167/167 [==============================] - 20s 112ms/step - loss: 1.0738
+Epoch 2/3
+167/167 [==============================] - 21s 123ms/step - loss: 0.6094
+Epoch 3/3
+167/167 [==============================] - 22s 132ms/step - loss: 0.3655
+167/167 [==============================] - 12s 69ms/step
+167/167 [==============================] - 11s 67ms/step
+[CV 1/2] END activation=relu, arch=CNN-RNN-comb, filter_num=25, kernel_size=10, learning_rate=0.009386045648971563, n_hidden=4, rnn_unit_size=70, stride=1;, score=(train=0.634, test=0.401) total time= 1.3min
+Epoch 1/3
+167/167 [==============================] - 22s 125ms/step - loss: 1.1693
+Epoch 2/3
+167/167 [==============================] - 21s 124ms/step - loss: 0.9420
+Epoch 3/3
+167/167 [==============================] - 22s 129ms/step - loss: 0.7126
+167/167 [==============================] - 12s 71ms/step
+167/167 [==============================] - 12s 73ms/step
+[CV 2/2] END activation=relu, arch=CNN-RNN-comb, filter_num=25, kernel_size=10, learning_rate=0.009386045648971563, n_hidden=4, rnn_unit_size=70, stride=1;, score=(train=0.566, test=0.293) total time= 1.4min
+Epoch 1/3
+167/167 [==============================] - 11s 57ms/step - loss: 0.8791
+Epoch 2/3
+167/167 [==============================] - 9s 56ms/step - loss: 0.5008
+Epoch 3/3
+167/167 [==============================] - 9s 54ms/step - loss: 0.3205
+167/167 [==============================] - 5s 27ms/step
+167/167 [==============================] - 5s 27ms/step
+[CV 1/2] END activation=relu, arch=CNN-RNN-comb, filter_num=25, kernel_size=8, learning_rate=0.021975275284887495, n_hidden=4, rnn_unit_size=80, stride=3;, score=(train=0.626, test=0.347) total time=  39.8s
+Epoch 1/3
+167/167 [==============================] - 10s 56ms/step - loss: 1.2098
+Epoch 2/3
+167/167 [==============================] - 10s 58ms/step - loss: 1.1804
+Epoch 3/3
+167/167 [==============================] - 10s 61ms/step - loss: 1.1791
+167/167 [==============================] - 6s 33ms/step
+167/167 [==============================] - 6s 33ms/step
+[CV 2/2] END activation=relu, arch=CNN-RNN-comb, filter_num=25, kernel_size=8, learning_rate=0.021975275284887495, n_hidden=4, rnn_unit_size=80, stride=3;, score=(train=-0.002, test=-0.004) total time=  42.3s
+Epoch 1/3
+167/167 [==============================] - 10s 49ms/step - loss: 0.8294
+Epoch 2/3
+167/167 [==============================] - 8s 50ms/step - loss: 0.4572
+Epoch 3/3
+167/167 [==============================] - 8s 48ms/step - loss: 0.3219
+167/167 [==============================] - 4s 21ms/step
+167/167 [==============================] - 3s 20ms/step
+[CV 1/2] END activation=relu, arch=Bi-RNN, filter_num=30, kernel_size=11, learning_rate=0.0074368273798020735, n_hidden=1, rnn_unit_size=40, stride=1;, score=(train=0.599, test=0.275) total time=  36.2s
+Epoch 1/3
+167/167 [==============================] - 9s 46ms/step - loss: 0.9819
+Epoch 2/3
+167/167 [==============================] - 8s 47ms/step - loss: 0.4938
+Epoch 3/3
+167/167 [==============================] - 8s 49ms/step - loss: 0.2308
+167/167 [==============================] - 4s 24ms/step
+167/167 [==============================] - 4s 23ms/step
+[CV 2/2] END activation=relu, arch=Bi-RNN, filter_num=30, kernel_size=11, learning_rate=0.0074368273798020735, n_hidden=1, rnn_unit_size=40, stride=1;, score=(train=0.803, test=0.359) total time=  35.7s
+Epoch 1/3
+167/167 [==============================] - 38s 218ms/step - loss: 0.7257
+Epoch 2/3
+167/167 [==============================] - 32s 194ms/step - loss: 0.3003
+Epoch 3/3
+167/167 [==============================] - 30s 177ms/step - loss: 0.1827
+167/167 [==============================] - 17s 103ms/step
+167/167 [==============================] - 18s 110ms/step
+[CV 1/2] END activation=tanh, arch=CNN-RNN-comb, filter_num=20, kernel_size=14, learning_rate=0.005388356931600578, n_hidden=4, rnn_unit_size=30, stride=1;, score=(train=0.831, test=0.453) total time= 2.1min
+Epoch 1/3
+167/167 [==============================] - 39s 228ms/step - loss: 0.7633
+Epoch 2/3
+167/167 [==============================] - 38s 231ms/step - loss: 0.2896
+Epoch 3/3
+167/167 [==============================] - 39s 232ms/step - loss: 0.1038
+167/167 [==============================] - 21s 122ms/step
+167/167 [==============================] - 22s 135ms/step
+[CV 2/2] END activation=tanh, arch=CNN-RNN-comb, filter_num=20, kernel_size=14, learning_rate=0.005388356931600578, n_hidden=4, rnn_unit_size=30, stride=1;, score=(train=0.973, test=0.342) total time= 2.4min
+Epoch 1/3
+167/167 [==============================] - 10s 51ms/step - loss: 0.8044
+Epoch 2/3
+167/167 [==============================] - 9s 51ms/step - loss: 0.3116
+Epoch 3/3
+167/167 [==============================] - 7s 45ms/step - loss: 0.1073
+167/167 [==============================] - 4s 23ms/step
+167/167 [==============================] - 4s 23ms/step
+[CV 1/2] END activation=tanh, arch=Bi-RNN, filter_num=25, kernel_size=13, learning_rate=0.004328290559879581, n_hidden=4, rnn_unit_size=20, stride=1;, score=(train=0.946, test=0.427) total time=  39.6s
+Epoch 1/3
+167/167 [==============================] - 9s 45ms/step - loss: 0.8140
+Epoch 2/3
+167/167 [==============================] - 8s 46ms/step - loss: 0.2893
+Epoch 3/3
+167/167 [==============================] - 8s 47ms/step - loss: 0.0792
+167/167 [==============================] - 4s 22ms/step
+167/167 [==============================] - 4s 23ms/step
+[CV 2/2] END activation=tanh, arch=Bi-RNN, filter_num=25, kernel_size=13, learning_rate=0.004328290559879581, n_hidden=4, rnn_unit_size=20, stride=1;, score=(train=0.972, test=0.450) total time=  36.4s
+Epoch 1/3
+167/167 [==============================] - 14s 77ms/step - loss: 1.1658
+Epoch 2/3
+167/167 [==============================] - 12s 75ms/step - loss: 1.1528
+Epoch 3/3
+167/167 [==============================] - 13s 75ms/step - loss: 1.1495
+167/167 [==============================] - 7s 42ms/step
+167/167 [==============================] - 7s 42ms/step
+[CV 1/2] END activation=sigmoid, arch=CNN-RNN-comb, filter_num=15, kernel_size=10, learning_rate=0.020407181181390847, n_hidden=4, rnn_unit_size=10, stride=4;, score=(train=-0.000, test=-0.001) total time=  54.4s
+Epoch 1/3
+167/167 [==============================] - 15s 76ms/step - loss: 1.1943
+Epoch 2/3
+167/167 [==============================] - 13s 76ms/step - loss: 1.1760
+Epoch 3/3
+167/167 [==============================] - 13s 77ms/step - loss: 0.8923
+167/167 [==============================] - 7s 42ms/step
+167/167 [==============================] - 7s 42ms/step
+[CV 2/2] END activation=sigmoid, arch=CNN-RNN-comb, filter_num=15, kernel_size=10, learning_rate=0.020407181181390847, n_hidden=4, rnn_unit_size=10, stride=4;, score=(train=0.309, test=0.233) total time=  55.2s
+Epoch 1/3
+167/167 [==============================] - 14s 77ms/step - loss: 0.9965
+Epoch 2/3
+167/167 [==============================] - 13s 77ms/step - loss: 0.6529
+Epoch 3/3
+167/167 [==============================] - 13s 76ms/step - loss: 0.4978
+167/167 [==============================] - 6s 34ms/step
+167/167 [==============================] - 6s 33ms/step
+[CV 1/2] END activation=tanh, arch=Bi-RNN, filter_num=25, kernel_size=7, learning_rate=0.011346911068687232, n_hidden=1, rnn_unit_size=50, stride=2;, score=(train=0.498, test=0.251) total time=  53.3s
+Epoch 1/3
+167/167 [==============================] - 14s 78ms/step - loss: 1.1920
+Epoch 2/3
+167/167 [==============================] - 13s 79ms/step - loss: 0.8617
+Epoch 3/3
+167/167 [==============================] - 13s 79ms/step - loss: 0.6982
+167/167 [==============================] - 6s 33ms/step
+167/167 [==============================] - 6s 34ms/step
+[CV 2/2] END activation=tanh, arch=Bi-RNN, filter_num=25, kernel_size=7, learning_rate=0.011346911068687232, n_hidden=1, rnn_unit_size=50, stride=2;, score=(train=0.384, test=0.253) total time=  54.8s
+Epoch 1/3
+167/167 [==============================] - 10s 56ms/step - loss: 1.3245
+Epoch 2/3
+167/167 [==============================] - 9s 54ms/step - loss: 1.1515
+Epoch 3/3
+167/167 [==============================] - 9s 53ms/step - loss: 1.1438
+167/167 [==============================] - 4s 25ms/step
+167/167 [==============================] - 4s 24ms/step
+[CV 1/2] END activation=sigmoid, arch=CNN, filter_num=10, kernel_size=12, learning_rate=0.000386391086627427, n_hidden=2, rnn_unit_size=30, stride=4;, score=(train=0.005, test=0.003) total time=  39.4s
+Epoch 1/3
+167/167 [==============================] - 9s 54ms/step - loss: 1.2703
+Epoch 2/3
+167/167 [==============================] - 9s 51ms/step - loss: 1.1750
+Epoch 3/3
+167/167 [==============================] - 8s 51ms/step - loss: 1.1708
+167/167 [==============================] - 4s 23ms/step
+167/167 [==============================] - 4s 24ms/step
+[CV 2/2] END activation=sigmoid, arch=CNN, filter_num=10, kernel_size=12, learning_rate=0.000386391086627427, n_hidden=2, rnn_unit_size=30, stride=4;, score=(train=0.006, test=0.004) total time=  37.7s
+Epoch 1/3
+167/167 [==============================] - 19s 106ms/step - loss: 1.1992
+Epoch 2/3
+167/167 [==============================] - 18s 107ms/step - loss: 1.1948
+Epoch 3/3
+167/167 [==============================] - 18s 110ms/step - loss: 1.1908
+167/167 [==============================] - 8s 46ms/step
+167/167 [==============================] - 8s 47ms/step
+[CV 1/2] END activation=tanh, arch=Bi-RNN, filter_num=15, kernel_size=8, learning_rate=0.028015964619519093, n_hidden=3, rnn_unit_size=90, stride=4;, score=(train=-0.075, test=-0.084) total time= 1.2min
+Epoch 1/3
+167/167 [==============================] - 20s 114ms/step - loss: 1.2284
+Epoch 2/3
+167/167 [==============================] - 19s 115ms/step - loss: 1.2200
+Epoch 3/3
+167/167 [==============================] - 20s 118ms/step - loss: 1.2008
+167/167 [==============================] - 8s 48ms/step
+167/167 [==============================] - 8s 48ms/step
+[CV 2/2] END activation=tanh, arch=Bi-RNN, filter_num=15, kernel_size=8, learning_rate=0.028015964619519093, n_hidden=3, rnn_unit_size=90, stride=4;, score=(train=-0.035, test=-0.025) total time= 1.3min
+Epoch 1/3
+167/167 [==============================] - 46s 275ms/step - loss: 1.1655
+Epoch 2/3
+167/167 [==============================] - 43s 259ms/step - loss: 1.1530
+Epoch 3/3
+167/167 [==============================] - 43s 259ms/step - loss: 1.1514
+167/167 [==============================] - 22s 129ms/step
+167/167 [==============================] - 22s 129ms/step
+[CV 1/2] END activation=sigmoid, arch=CNN, filter_num=30, kernel_size=12, learning_rate=0.016123595801937105, n_hidden=4, rnn_unit_size=60, stride=1;, score=(train=-0.014, test=-0.009) total time= 2.7min
+Epoch 1/3
+167/167 [==============================] - 47s 278ms/step - loss: 1.1991
+Epoch 2/3
+167/167 [==============================] - 44s 266ms/step - loss: 1.1837
+Epoch 3/3
+167/167 [==============================] - 45s 272ms/step - loss: 1.1827
+167/167 [==============================] - 22s 130ms/step
+167/167 [==============================] - 21s 129ms/step
+[CV 2/2] END activation=sigmoid, arch=CNN, filter_num=30, kernel_size=12, learning_rate=0.016123595801937105, n_hidden=4, rnn_unit_size=60, stride=1;, score=(train=-0.001, test=-0.003) total time= 2.8min
+Epoch 1/3
+167/167 [==============================] - 7s 38ms/step - loss: 1.1620
+Epoch 2/3
+167/167 [==============================] - 6s 35ms/step - loss: 0.6410
+Epoch 3/3
+167/167 [==============================] - 6s 37ms/step - loss: 0.3503
+167/167 [==============================] - 4s 23ms/step
+167/167 [==============================] - 4s 22ms/step
+[CV 1/2] END activation=sigmoid, arch=CNN, filter_num=10, kernel_size=2, learning_rate=0.006796571147439965, n_hidden=3, rnn_unit_size=20, stride=1;, score=(train=0.682, test=0.438) total time=  30.1s
+Epoch 1/3
+167/167 [==============================] - 7s 40ms/step - loss: 1.1931
+Epoch 2/3
+167/167 [==============================] - 6s 38ms/step - loss: 0.7829
+Epoch 3/3
+167/167 [==============================] - 6s 38ms/step - loss: 0.4037
+167/167 [==============================] - 4s 22ms/step
+167/167 [==============================] - 4s 23ms/step
+[CV 2/2] END activation=sigmoid, arch=CNN, filter_num=10, kernel_size=2, learning_rate=0.006796571147439965, n_hidden=3, rnn_unit_size=20, stride=1;, score=(train=0.637, test=0.454) total time=  31.8s
+Epoch 1/3
+167/167 [==============================] - 16s 86ms/step - loss: 0.7091
+Epoch 2/3
+167/167 [==============================] - 15s 89ms/step - loss: 0.1462
+Epoch 3/3
+167/167 [==============================] - 15s 87ms/step - loss: 0.0211
+167/167 [==============================] - 6s 36ms/step
+167/167 [==============================] - 6s 34ms/step
+[CV 1/2] END activation=relu, arch=Bi-RNN, filter_num=25, kernel_size=14, learning_rate=0.0014609771826351815, n_hidden=1, rnn_unit_size=50, stride=3;, score=(train=0.995, test=0.508) total time=  59.9s
+Epoch 1/3
+167/167 [==============================] - 14s 74ms/step - loss: 0.7249
+Epoch 2/3
+167/167 [==============================] - 11s 67ms/step - loss: 0.1955
+Epoch 3/3
+167/167 [==============================] - 11s 63ms/step - loss: 0.0398
+167/167 [==============================] - 5s 26ms/step
+167/167 [==============================] - 4s 25ms/step
+[CV 2/2] END activation=relu, arch=Bi-RNN, filter_num=25, kernel_size=14, learning_rate=0.0014609771826351815, n_hidden=1, rnn_unit_size=50, stride=3;, score=(train=0.988, test=0.534) total time=  48.7s
+Epoch 1/3
+167/167 [==============================] - 8s 47ms/step - loss: 0.6241
+Epoch 2/3
+167/167 [==============================] - 8s 45ms/step - loss: 0.0969
+Epoch 3/3
+167/167 [==============================] - 7s 44ms/step - loss: 0.0109
+167/167 [==============================] - 5s 27ms/step
+167/167 [==============================] - 5s 27ms/step
+[CV 1/2] END activation=tanh, arch=CNN, filter_num=15, kernel_size=6, learning_rate=0.006162798486229879, n_hidden=2, rnn_unit_size=50, stride=2;, score=(train=0.997, test=0.503) total time=  34.4s
+Epoch 1/3
+167/167 [==============================] - 8s 44ms/step - loss: 0.6854
+Epoch 2/3
+167/167 [==============================] - 7s 43ms/step - loss: 0.1059
+Epoch 3/3
+167/167 [==============================] - 7s 44ms/step - loss: 0.0090
+167/167 [==============================] - 5s 27ms/step
+167/167 [==============================] - 5s 27ms/step
+[CV 2/2] END activation=tanh, arch=CNN, filter_num=15, kernel_size=6, learning_rate=0.006162798486229879, n_hidden=2, rnn_unit_size=50, stride=2;, score=(train=0.998, test=0.537) total time=  33.0s
+Epoch 1/3
+167/167 [==============================] - 8s 44ms/step - loss: 0.7343
+Epoch 2/3
+167/167 [==============================] - 8s 46ms/step - loss: 0.3231
+Epoch 3/3
+167/167 [==============================] - 8s 47ms/step - loss: 0.0865
+167/167 [==============================] - 4s 22ms/step
+167/167 [==============================] - 4s 21ms/step
+[CV 1/2] END activation=tanh, arch=Bi-RNN, filter_num=15, kernel_size=4, learning_rate=0.0038693571659805183, n_hidden=3, rnn_unit_size=40, stride=3;, score=(train=0.948, test=0.372) total time=  34.3s
+Epoch 1/3
+167/167 [==============================] - 9s 47ms/step - loss: 0.7840
+Epoch 2/3
+167/167 [==============================] - 8s 48ms/step - loss: 0.3274
+Epoch 3/3
+167/167 [==============================] - 8s 49ms/step - loss: 0.1241
+167/167 [==============================] - 4s 23ms/step
+167/167 [==============================] - 4s 24ms/step
+[CV 2/2] END activation=tanh, arch=Bi-RNN, filter_num=15, kernel_size=4, learning_rate=0.0038693571659805183, n_hidden=3, rnn_unit_size=40, stride=3;, score=(train=0.957, test=0.427) total time=  36.3s
+Epoch 1/3
+167/167 [==============================] - 16s 87ms/step - loss: 1.0613
+Epoch 2/3
+167/167 [==============================] - 15s 89ms/step - loss: 0.8865
+Epoch 3/3
+167/167 [==============================] - 15s 88ms/step - loss: 0.8057
+167/167 [==============================] - 6s 37ms/step
+167/167 [==============================] - 6s 36ms/step
+[CV 1/2] END activation=relu, arch=Bi-RNN, filter_num=35, kernel_size=8, learning_rate=0.0048030505391674526, n_hidden=2, rnn_unit_size=90, stride=2;, score=(train=0.286, test=0.147) total time=  58.9s
+Epoch 1/3
+167/167 [==============================] - 16s 87ms/step - loss: 1.0311
+Epoch 2/3
+167/167 [==============================] - 15s 87ms/step - loss: 0.8164
+Epoch 3/3
+167/167 [==============================] - 15s 87ms/step - loss: 0.6924
+167/167 [==============================] - 6s 35ms/step
+167/167 [==============================] - 6s 35ms/step
+[CV 2/2] END activation=relu, arch=Bi-RNN, filter_num=35, kernel_size=8, learning_rate=0.0048030505391674526, n_hidden=2, rnn_unit_size=90, stride=2;, score=(train=0.433, test=0.274) total time=  57.8s
+Epoch 1/3
+167/167 [==============================] - 12s 63ms/step - loss: 1.0499
+Epoch 2/3
+167/167 [==============================] - 11s 64ms/step - loss: 0.4716
+Epoch 3/3
+167/167 [==============================] - 11s 64ms/step - loss: 0.1701
+167/167 [==============================] - 5s 29ms/step
+167/167 [==============================] - 5s 27ms/step
+[CV 1/2] END activation=sigmoid, arch=Bi-RNN, filter_num=30, kernel_size=14, learning_rate=0.0009141134780530596, n_hidden=1, rnn_unit_size=60, stride=1;, score=(train=0.947, test=0.547) total time=  45.1s
+Epoch 1/3
+167/167 [==============================] - 12s 66ms/step - loss: 0.8881
+Epoch 2/3
+167/167 [==============================] - 11s 66ms/step - loss: 0.4150
+Epoch 3/3
+167/167 [==============================] - 11s 66ms/step - loss: 0.1946
+167/167 [==============================] - 5s 27ms/step
+167/167 [==============================] - 5s 29ms/step
+[CV 2/2] END activation=sigmoid, arch=Bi-RNN, filter_num=30, kernel_size=14, learning_rate=0.0009141134780530596, n_hidden=1, rnn_unit_size=60, stride=1;, score=(train=0.884, test=0.514) total time=  46.5s
+Epoch 1/3
+167/167 [==============================] - 7s 33ms/step - loss: 0.7351
+Epoch 2/3
+167/167 [==============================] - 6s 34ms/step - loss: 0.3947
+Epoch 3/3
+167/167 [==============================] - 6s 34ms/step - loss: 0.2454
+167/167 [==============================] - 3s 18ms/step
+167/167 [==============================] - 3s 17ms/step
+[CV 1/2] END activation=relu, arch=Bi-RNN, filter_num=10, kernel_size=4, learning_rate=0.012554837647533514, n_hidden=2, rnn_unit_size=10, stride=1;, score=(train=0.655, test=0.208) total time=  28.4s
+Epoch 1/3
+167/167 [==============================] - 7s 33ms/step - loss: 0.7889
+Epoch 2/3
+167/167 [==============================] - 6s 34ms/step - loss: 0.4044
+Epoch 3/3
+167/167 [==============================] - 6s 34ms/step - loss: 0.2550
+167/167 [==============================] - 3s 18ms/step
+167/167 [==============================] - 3s 18ms/step
+[CV 2/2] END activation=relu, arch=Bi-RNN, filter_num=10, kernel_size=4, learning_rate=0.012554837647533514, n_hidden=2, rnn_unit_size=10, stride=1;, score=(train=0.814, test=0.437) total time=  29.1s
+Epoch 1/3
+167/167 [==============================] - 8s 43ms/step - loss: 1.1750
+Epoch 2/3
+167/167 [==============================] - 7s 42ms/step - loss: 1.1464
+Epoch 3/3
+167/167 [==============================] - 7s 42ms/step - loss: 0.8350
+167/167 [==============================] - 5s 25ms/step
+167/167 [==============================] - 4s 26ms/step
+[CV 1/2] END activation=sigmoid, arch=CNN-RNN-comb, filter_num=15, kernel_size=7, learning_rate=0.0008071485820165346, n_hidden=4, rnn_unit_size=40, stride=4;, score=(train=0.372, test=0.251) total time=  34.6s
+Epoch 1/3
+167/167 [==============================] - 8s 44ms/step - loss: 1.1958
+Epoch 2/3
+167/167 [==============================] - 7s 43ms/step - loss: 1.1770
+Epoch 3/3
+167/167 [==============================] - 7s 41ms/step - loss: 1.0008
+167/167 [==============================] - 4s 25ms/step
+167/167 [==============================] - 4s 26ms/step
+[CV 2/2] END activation=sigmoid, arch=CNN-RNN-comb, filter_num=15, kernel_size=7, learning_rate=0.0008071485820165346, n_hidden=4, rnn_unit_size=40, stride=4;, score=(train=0.322, test=0.238) total time=  33.9s
+Epoch 1/3
+167/167 [==============================] - 23s 130ms/step - loss: 0.7188
+Epoch 2/3
+167/167 [==============================] - 21s 127ms/step - loss: 0.2931
+Epoch 3/3
+167/167 [==============================] - 21s 128ms/step - loss: 0.1308
+167/167 [==============================] - 12s 68ms/step
+167/167 [==============================] - 11s 68ms/step
+[CV 1/2] END activation=relu, arch=CNN-RNN-comb, filter_num=20, kernel_size=14, learning_rate=0.005109518077650934, n_hidden=4, rnn_unit_size=30, stride=2;, score=(train=0.953, test=0.415) total time= 1.4min
+Epoch 1/3
+167/167 [==============================] - 24s 135ms/step - loss: 0.8233
+Epoch 2/3
+167/167 [==============================] - 22s 135ms/step - loss: 0.3458
+Epoch 3/3
+167/167 [==============================] - 22s 134ms/step - loss: 0.1749
+167/167 [==============================] - 12s 68ms/step
+167/167 [==============================] - 11s 68ms/step
+[CV 2/2] END activation=relu, arch=CNN-RNN-comb, filter_num=20, kernel_size=14, learning_rate=0.005109518077650934, n_hidden=4, rnn_unit_size=30, stride=2;, score=(train=0.820, test=0.423) total time= 1.5min
+Epoch 1/3
+334/334 [==============================] - 52s 152ms/step - loss: 0.5129
+Epoch 2/3
+334/334 [==============================] - 51s 152ms/step - loss: 0.0799
+Epoch 3/3
+334/334 [==============================] - 52s 155ms/step - loss: 0.0192
+{'activation': 'tanh', 'arch': 'CNN-RNN-comb', 'filter_num': 20, 'kernel_size': 10, 'learning_rate': 0.0010272025683152849, 'n_hidden': 2, 'rnn_unit_size': 60, 'stride': 1}
+╭──────────────────────────────────────────────────────────────────────── <class 'sklearn.model_selection._search.RandomizedSearchCV'> ────────────────────────────────────────────────────────────────────────╮
+│ Randomized search on hyper parameters.                                                                                                                                                                       │
+│                                                                                                                                                                                                              │
+│ ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮ │
+│ │ RandomizedSearchCV(cv=2,                                                                                                                                                                                 │ │
+│ │ │   │   │   │      estimator=KerasRegressor(activation=['relu', 'tanh', 'sigmoid'], arch=['Bi-RNN', 'CNN', 'CNN-RNN-comb'], filter_num=[10, 15, 20, 25, 30, 35], kernel_size=[2, 3, 4, 5, 6, 7, 8, 9,    │ │
+│ │ 10, 11, 12, 13, 14], learning_rate=<scipy.stats._distn_infrastructure.rv_continuous_frozen object at 0x288550610>, model=<function build_model at 0x28ab96520>, n_hidden=[1, 2, 3, 4], r...              │ │
+│ │ │   │   │   │      param_distributions={'activation': ['relu', 'tanh',                                                                                                                                   │ │
+│ │ │   │   │   │   │   │   │   │   │   │   │   │   │      'sigmoid'],                                                                                                                                       │ │
+│ │ │   │   │   │   │   │   │   │   │   │   'arch': ['Bi-RNN', 'CNN',                                                                                                                                        │ │
+│ │ │   │   │   │   │   │   │   │   │   │   │   │    'CNN-RNN-comb'],                                                                                                                                        │ │
+│ │ │   │   │   │   │   │   │   │   │   │   'filter_num': [10, 15, 20, 25, 30, 35],                                                                                                                          │ │
+│ │ │   │   │   │   │   │   │   │   │   │   'kernel_size': [2, 3, 4, 5, 6, 7, 8, 9,                                                                                                                          │ │
+│ │ │   │   │   │   │   │   │   │   │   │   │   │   │   │   10, 11, 12, 13, 14],                                                                                                                             │ │
+│ │ │   │   │   │   │   │   │   │   │   │   'learning_rate': <scipy.stats._distn_infrastructure.rv_continuous_frozen object at 0x288550610>,                                                                 │ │
+│ │ │   │   │   │   │   │   │   │   │   │   'n_hidden': [1, 2, 3, 4],                                                                                                                                        │ │
+│ │ │   │   │   │   │   │   │   │   │   │   'rnn_unit_size': [10, 20, 30, 40, 50,                                                                                                                            │ │
+│ │ │   │   │   │   │   │   │   │   │   │   │   │   │   │     60, 70, 80, 90],                                                                                                                               │ │
+│ │ │   │   │   │   │   │   │   │   │   │   'stride': [1, 2, 3, 4]},                                                                                                                                         │ │
+│ │ │   │   │   │      return_train_score=True, verbose=3)                                                                                                                                                   │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                                              │
+│     best_estimator_ = KerasRegressor(                                                                                                                                                                        │
+│                               model=<function build_model at 0x28ab96520>                                                                                                                                    │
+│                               build_fn=None                                                                                                                                                                  │
+│                               warm_start=False                                                                                                                                                               │
+│                               random_state=None                                                                                                                                                              │
+│                               optimizer=rmsprop                                                                                                                                                              │
+│                               loss=None                                                                                                                                                                      │
+│                               metrics=None                                                                                                                                                                   │
+│                               batch_size=None                                                                                                                                                                │
+│                               validation_batch_size=None                                                                                                                                                     │
+│                               verbose=1                                                                                                                                                                      │
+│                               callbacks=None                                                                                                                                                                 │
+│                               validation_split=0.0                                                                                                                                                           │
+│                               shuffle=True                                                                                                                                                                   │
+│                               run_eagerly=False                                                                                                                                                              │
+│                               epochs=1                                                                                                                                                                       │
+│                               arch=CNN-RNN-comb                                                                                                                                                              │
+│                               learning_rate=0.0010272025683152849                                                                                                                                            │
+│                               filter_num=20                                                                                                                                                                  │
+│                               kernel_size=10                                                                                                                                                                 │
+│                               stride=1                                                                                                                                                                       │
+│                               rnn_unit_size=60                                                                                                                                                               │
+│                               n_hidden=2                                                                                                                                                                     │
+│                               activation=tanh                                                                                                                                                                │
+│                       )                                                                                                                                                                                      │
+│         best_index_ = 8                                                                                                                                                                                      │
+│        best_params_ = {'activation': 'tanh', 'arch': 'CNN-RNN-comb', 'filter_num': 20, 'kernel_size': 10, 'learning_rate': 0.0010272025683152849, 'n_hidden': 2, 'rnn_unit_size': 60, 'stride': 1}           │
+│         best_score_ = 0.5758802350846919                                                                                                                                                                     │
+│            classes_ = AttributeError("'KerasRegressor' object has no attribute 'classes_'")                                                                                                                  │
+│                  cv = 2                                                                                                                                                                                      │
+│         cv_results_ = {                                                                                                                                                                                      │
+│                           'mean_fit_time': array([ 33.53251147,  27.92335534,  14.91754055,  16.78274703,                                                                                                    │
+│                               26.48343158,  16.27017653,  11.86824751,  30.85703444,                                                                                                                         │
+│                               51.23439991,  17.26870203,  14.59106207,  67.58759475,                                                                                                                         │
+│                               34.02576017,  30.04634058, 113.0267359 ,  30.80306852,                                                                                                                         │
+│                               45.29851937,  45.71120059,  32.13126457,  62.74349856,                                                                                                                         │
+│                              139.91058409,  24.65328789,  46.51630223,  27.32677186,                                                                                                                         │
+│                               29.31377351,  50.03682554,  38.76972902,  23.2420795 ,                                                                                                                         │
+│                               27.66263187,  72.00009084]),                                                                                                                                                   │
+│                           'std_fit_time': array([0.11106062, 0.30176353, 0.20025539, 0.37361693, 0.30864644,                                                                                                 │
+│                              0.16816843, 0.01580143, 0.33216262, 0.68670809, 0.21551108,                                                                                                                     │
+│                              0.23497701, 1.2554915 , 0.67108703, 0.55054057, 8.42469895,                                                                                                                     │
+│                              0.89893758, 0.37401366, 0.83122671, 0.77428854, 1.95428348,                                                                                                                     │
+│                              1.66647613, 0.84149623, 4.541448  , 0.63716018, 0.80797446,                                                                                                                     │
+│                              0.42427742, 0.69400203, 0.25259233, 0.1468209 , 1.57503295]),                                                                                                                   │
+│                           'mean_score_time': array([ 5.73996234,  4.72874153,  3.56042898,  3.81631613,  4.75976145,                                                                                         │
+│                               3.71519411,  3.0102669 ,  5.25222659, 10.65483809,  4.14219725,                                                                                                                │
+│                               3.48472738, 13.63460243,  7.05475843,  5.86616945, 20.91201603,                                                                                                                │
+│                               7.20322645,  9.53129148,  8.34794307,  6.41213655, 10.68425095,                                                                                                                │
+│                              24.04014242,  6.29811358,  7.74069881,  6.38781214,  5.96268487,                                                                                                                │
+│                               8.30932677,  7.03622758,  5.47493458,  6.58859193, 13.57640302]),                                                                                                              │
+│                           'std_score_time': array([1.28249645e-01, 4.81094122e-02, 4.33241129e-02, 1.12689018e-01,                                                                                           │
+│                              1.05091453e-01, 2.81690359e-02, 3.67045403e-04, 4.35345173e-02,                                                                                                                 │
+│                              2.76727676e-02, 2.10725069e-02, 1.98974609e-02, 2.29225516e-01,                                                                                                                 │
+│                              5.93295455e-01, 3.10143709e-01, 1.74889934e+00, 7.09183574e-01,                                                                                                                 │
+│                              1.67703629e-02, 8.80391598e-02, 5.42914867e-02, 2.26308942e-01,                                                                                                                 │
+│                              1.25332475e-01, 4.16433811e-02, 1.05737185e+00, 7.39660263e-02,                                                                                                                 │
+│                              1.72054052e-01, 1.05280042e-01, 9.39548016e-03, 1.09920502e-01,                                                                                                                 │
+│                              1.79164052e-01, 1.08957887e-01]),                                                                                                                                               │
+│                           'param_activation': masked_array(data=['tanh', 'tanh', 'relu', 'sigmoid', 'relu', 'sigmoid',                                                                                       │
+│                                          'tanh', 'sigmoid', 'tanh', 'relu', 'relu', 'relu',                                                                                                                  │
+│                                          'relu', 'relu', 'tanh', 'tanh', 'sigmoid', 'tanh',                                                                                                                  │
+│                                          'sigmoid', 'tanh', 'sigmoid', 'sigmoid', 'relu',                                                                                                                    │
+│                                          'tanh', 'tanh', 'relu', 'sigmoid', 'relu', 'sigmoid',                                                                                                               │
+│                                          'relu'],                                                                                                                                                            │
+│                                    mask=[False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False],                                                                                                                          │
+│                              fill_value='?',                                                                                                                                                                 │
+│                                   dtype=object),                                                                                                                                                             │
+│                           'param_arch': masked_array(data=['CNN-RNN-comb', 'Bi-RNN', 'CNN-RNN-comb', 'Bi-RNN',                                                                                               │
+│                                          'Bi-RNN', 'Bi-RNN', 'CNN-RNN-comb', 'Bi-RNN',                                                                                                                       │
+│                                          'CNN-RNN-comb', 'Bi-RNN', 'CNN-RNN-comb',                                                                                                                           │
+│                                          'CNN-RNN-comb', 'CNN-RNN-comb', 'Bi-RNN',                                                                                                                           │
+│                                          'CNN-RNN-comb', 'Bi-RNN', 'CNN-RNN-comb', 'Bi-RNN',                                                                                                                 │
+│                                          'CNN', 'Bi-RNN', 'CNN', 'CNN', 'Bi-RNN', 'CNN',                                                                                                                     │
+│                                          'Bi-RNN', 'Bi-RNN', 'Bi-RNN', 'Bi-RNN', 'CNN-RNN-comb',                                                                                                             │
+│                                          'CNN-RNN-comb'],                                                                                                                                                    │
+│                                    mask=[False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False],                                                                                                                          │
+│                              fill_value='?',                                                                                                                                                                 │
+│                                   dtype=object),                                                                                                                                                             │
+│                           'param_filter_num': masked_array(data=[35, 25, 25, 15, 30, 15, 20, 20, 20, 20, 20, 25, 25, 30,                                                                                     │
+│                                          20, 25, 15, 25, 10, 15, 30, 10, 25, 15, 15, 35, 30, 10,                                                                                                             │
+│                                          15, 20],                                                                                                                                                            │
+│                                    mask=[False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False],                                                                                                                          │
+│                              fill_value='?',                                                                                                                                                                 │
+│                                   dtype=object),                                                                                                                                                             │
+│                           'param_kernel_size': masked_array(data=[10, 3, 2, 11, 14, 9, 3, 5, 10, 14, 4, 10, 8, 11, 14,                                                                                       │
+│                                          13, 10, 7, 12, 8, 12, 2, 14, 6, 4, 8, 14, 4, 7, 14],                                                                                                                │
+│                                    mask=[False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False],                                                                                                                          │
+│                              fill_value='?',                                                                                                                                                                 │
+│                                   dtype=object),                                                                                                                                                             │
+│                           'param_learning_rate': masked_array(data=[0.0058020225866674035, 0.0030949018913926517,                                                                                            │
+│                                          0.023069217114104697, 0.0014608184393803537,                                                                                                                        │
+│                                          0.005311607526774204, 0.003769832382469917,                                                                                                                         │
+│                                          0.0006996609222396219, 0.0006059846803382452,                                                                                                                       │
+│                                          0.0010272025683152849, 0.0031355899260377177,                                                                                                                       │
+│                                          0.001107742382090477, 0.009386045648971563,                                                                                                                         │
+│                                          0.021975275284887495, 0.0074368273798020735,                                                                                                                        │
+│                                          0.005388356931600578, 0.004328290559879581,                                                                                                                         │
+│                                          0.020407181181390847, 0.011346911068687232,                                                                                                                         │
+│                                          0.000386391086627427, 0.028015964619519093,                                                                                                                         │
+│                                          0.016123595801937105, 0.006796571147439965,                                                                                                                         │
+│                                          0.0014609771826351815, 0.006162798486229879,                                                                                                                        │
+│                                          0.0038693571659805183, 0.0048030505391674526,                                                                                                                       │
+│                                          0.0009141134780530596, 0.012554837647533514,                                                                                                                        │
+│                                          0.0008071485820165346, 0.005109518077650934],                                                                                                                       │
+│                                    mask=[False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False],                                                                                                                          │
+│                              fill_value='?',                                                                                                                                                                 │
+│                                   dtype=object),                                                                                                                                                             │
+│                           'param_n_hidden': masked_array(data=[3, 3, 2, 4, 1, 2, 2, 2, 2, 2, 1, 4, 4, 1, 4, 4, 4, 1,                                                                                         │
+│                                          2, 3, 4, 3, 1, 2, 3, 2, 1, 2, 4, 4],                                                                                                                                │
+│                                    mask=[False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False],                                                                                                                          │
+│                              fill_value='?',                                                                                                                                                                 │
+│                                   dtype=object),                                                                                                                                                             │
+│                           'param_rnn_unit_size': masked_array(data=[70, 90, 50, 20, 70, 20, 20, 90, 60, 20, 90, 70, 80, 40,                                                                                  │
+│                                          30, 20, 10, 50, 30, 90, 60, 20, 50, 50, 40, 90, 60, 10,                                                                                                             │
+│                                          40, 30],                                                                                                                                                            │
+│                                    mask=[False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False],                                                                                                                          │
+│                              fill_value='?',                                                                                                                                                                 │
+│                                   dtype=object),                                                                                                                                                             │
+│                           'param_stride': masked_array(data=[3, 2, 1, 4, 2, 1, 3, 3, 1, 1, 4, 1, 3, 1, 1, 1, 4, 2,                                                                                           │
+│                                          4, 4, 1, 1, 3, 2, 3, 2, 1, 1, 4, 2],                                                                                                                                │
+│                                    mask=[False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False, False, False,                                                                                                             │
+│                                          False, False, False, False, False, False],                                                                                                                          │
+│                              fill_value='?',                                                                                                                                                                 │
+│                                   dtype=object),                                                                                                                                                             │
+│                           'params': [                                                                                                                                                                        │
+│                               {                                                                                                                                                                              │
+│                                   'activation': 'tanh',                                                                                                                                                      │
+│                                   'arch': 'CNN-RNN-comb',                                                                                                                                                    │
+│                                   'filter_num': 35,                                                                                                                                                          │
+│                                   'kernel_size': 10,                                                                                                                                                         │
+│                                   'learning_rate': 0.0058020225866674035,                                                                                                                                    │
+│                                   'n_hidden': 3,                                                                                                                                                             │
+│                                   'rnn_unit_size': 70,                                                                                                                                                       │
+│                                   'stride': 3                                                                                                                                                                │
+│                               },                                                                                                                                                                             │
+│                               {'activation': 'tanh', 'arch': 'Bi-RNN', 'filter_num': 25, 'kernel_size': 3, 'learning_rate': 0.0030949018913926517, 'n_hidden': 3, 'rnn_unit_size': 90, 'stride': 2},         │
+│                               {'activation': 'relu', 'arch': 'CNN-RNN-comb', 'filter_num': 25, 'kernel_size': 2, 'learning_rate': 0.023069217114104697, 'n_hidden': 2, 'rnn_unit_size': 50, 'stride': 1},    │
+│                               {'activation': 'sigmoid', 'arch': 'Bi-RNN', 'filter_num': 15, 'kernel_size': 11, 'learning_rate': 0.0014608184393803537, 'n_hidden': 4, 'rnn_unit_size': 20, 'stride': 4},     │
+│                               {'activation': 'relu', 'arch': 'Bi-RNN', 'filter_num': 30, 'kernel_size': 14, 'learning_rate': 0.005311607526774204, 'n_hidden': 1, 'rnn_unit_size': 70, 'stride': 2},         │
+│                               {'activation': 'sigmoid', 'arch': 'Bi-RNN', 'filter_num': 15, 'kernel_size': 9, 'learning_rate': 0.003769832382469917, 'n_hidden': 2, 'rnn_unit_size': 20, 'stride': 1},       │
+│                               {'activation': 'tanh', 'arch': 'CNN-RNN-comb', 'filter_num': 20, 'kernel_size': 3, 'learning_rate': 0.0006996609222396219, 'n_hidden': 2, 'rnn_unit_size': 20, 'stride': 3},   │
+│                               {'activation': 'sigmoid', 'arch': 'Bi-RNN', 'filter_num': 20, 'kernel_size': 5, 'learning_rate': 0.0006059846803382452, 'n_hidden': 2, 'rnn_unit_size': 90, 'stride': 3},      │
+│                               {                                                                                                                                                                              │
+│                                   'activation': 'tanh',                                                                                                                                                      │
+│                                   'arch': 'CNN-RNN-comb',                                                                                                                                                    │
+│                                   'filter_num': 20,                                                                                                                                                          │
+│                                   'kernel_size': 10,                                                                                                                                                         │
+│                                   'learning_rate': 0.0010272025683152849,                                                                                                                                    │
+│                                   'n_hidden': 2,                                                                                                                                                             │
+│                                   'rnn_unit_size': 60,                                                                                                                                                       │
+│                                   'stride': 1                                                                                                                                                                │
+│                               },                                                                                                                                                                             │
+│                               {'activation': 'relu', 'arch': 'Bi-RNN', 'filter_num': 20, 'kernel_size': 14, 'learning_rate': 0.0031355899260377177, 'n_hidden': 2, 'rnn_unit_size': 20, 'stride': 1},        │
+│                               {'activation': 'relu', 'arch': 'CNN-RNN-comb', 'filter_num': 20, 'kernel_size': 4, 'learning_rate': 0.001107742382090477, 'n_hidden': 1, 'rnn_unit_size': 90, 'stride': 4},    │
+│                               {'activation': 'relu', 'arch': 'CNN-RNN-comb', 'filter_num': 25, 'kernel_size': 10, 'learning_rate': 0.009386045648971563, 'n_hidden': 4, 'rnn_unit_size': 70, 'stride': 1},   │
+│                               {'activation': 'relu', 'arch': 'CNN-RNN-comb', 'filter_num': 25, 'kernel_size': 8, 'learning_rate': 0.021975275284887495, 'n_hidden': 4, 'rnn_unit_size': 80, 'stride': 3},    │
+│                               {'activation': 'relu', 'arch': 'Bi-RNN', 'filter_num': 30, 'kernel_size': 11, 'learning_rate': 0.0074368273798020735, 'n_hidden': 1, 'rnn_unit_size': 40, 'stride': 1},        │
+│                               {'activation': 'tanh', 'arch': 'CNN-RNN-comb', 'filter_num': 20, 'kernel_size': 14, 'learning_rate': 0.005388356931600578, 'n_hidden': 4, 'rnn_unit_size': 30, 'stride': 1},   │
+│                               {'activation': 'tanh', 'arch': 'Bi-RNN', 'filter_num': 25, 'kernel_size': 13, 'learning_rate': 0.004328290559879581, 'n_hidden': 4, 'rnn_unit_size': 20, 'stride': 1},         │
+│                               {                                                                                                                                                                              │
+│                                   'activation': 'sigmoid',                                                                                                                                                   │
+│                                   'arch': 'CNN-RNN-comb',                                                                                                                                                    │
+│                                   'filter_num': 15,                                                                                                                                                          │
+│                                   'kernel_size': 10,                                                                                                                                                         │
+│                                   'learning_rate': 0.020407181181390847,                                                                                                                                     │
+│                                   'n_hidden': 4,                                                                                                                                                             │
+│                                   'rnn_unit_size': 10,                                                                                                                                                       │
+│                                   'stride': 4                                                                                                                                                                │
+│                               },                                                                                                                                                                             │
+│                               {'activation': 'tanh', 'arch': 'Bi-RNN', 'filter_num': 25, 'kernel_size': 7, 'learning_rate': 0.011346911068687232, 'n_hidden': 1, 'rnn_unit_size': 50, 'stride': 2},          │
+│                               {'activation': 'sigmoid', 'arch': 'CNN', 'filter_num': 10, 'kernel_size': 12, 'learning_rate': 0.000386391086627427, 'n_hidden': 2, 'rnn_unit_size': 30, 'stride': 4},         │
+│                               {'activation': 'tanh', 'arch': 'Bi-RNN', 'filter_num': 15, 'kernel_size': 8, 'learning_rate': 0.028015964619519093, 'n_hidden': 3, 'rnn_unit_size': 90, 'stride': 4},          │
+│                               {'activation': 'sigmoid', 'arch': 'CNN', 'filter_num': 30, 'kernel_size': 12, 'learning_rate': 0.016123595801937105, 'n_hidden': 4, 'rnn_unit_size': 60, 'stride': 1},         │
+│                               {'activation': 'sigmoid', 'arch': 'CNN', 'filter_num': 10, 'kernel_size': 2, 'learning_rate': 0.006796571147439965, 'n_hidden': 3, 'rnn_unit_size': 20, 'stride': 1},          │
+│                               {'activation': 'relu', 'arch': 'Bi-RNN', 'filter_num': 25, 'kernel_size': 14, 'learning_rate': 0.0014609771826351815, 'n_hidden': 1, 'rnn_unit_size': 50, 'stride': 3},        │
+│                               {'activation': 'tanh', 'arch': 'CNN', 'filter_num': 15, 'kernel_size': 6, 'learning_rate': 0.006162798486229879, 'n_hidden': 2, 'rnn_unit_size': 50, 'stride': 2},             │
+│                               {'activation': 'tanh', 'arch': 'Bi-RNN', 'filter_num': 15, 'kernel_size': 4, 'learning_rate': 0.0038693571659805183, 'n_hidden': 3, 'rnn_unit_size': 40, 'stride': 3},         │
+│                               {'activation': 'relu', 'arch': 'Bi-RNN', 'filter_num': 35, 'kernel_size': 8, 'learning_rate': 0.0048030505391674526, 'n_hidden': 2, 'rnn_unit_size': 90, 'stride': 2},         │
+│                               {'activation': 'sigmoid', 'arch': 'Bi-RNN', 'filter_num': 30, 'kernel_size': 14, 'learning_rate': 0.0009141134780530596, 'n_hidden': 1, 'rnn_unit_size': 60, 'stride': 1},     │
+│                               {'activation': 'relu', 'arch': 'Bi-RNN', 'filter_num': 10, 'kernel_size': 4, 'learning_rate': 0.012554837647533514, 'n_hidden': 2, 'rnn_unit_size': 10, 'stride': 1},          │
+│                               {                                                                                                                                                                              │
+│                                   'activation': 'sigmoid',                                                                                                                                                   │
+│                                   'arch': 'CNN-RNN-comb',                                                                                                                                                    │
+│                                   'filter_num': 15,                                                                                                                                                          │
+│                                   'kernel_size': 7,                                                                                                                                                          │
+│                                   'learning_rate': 0.0008071485820165346,                                                                                                                                    │
+│                                   'n_hidden': 4,                                                                                                                                                             │
+│                                   'rnn_unit_size': 40,                                                                                                                                                       │
+│                                   'stride': 4                                                                                                                                                                │
+│                               },                                                                                                                                                                             │
+│                               {'activation': 'relu', 'arch': 'CNN-RNN-comb', 'filter_num': 20, 'kernel_size': 14, 'learning_rate': 0.005109518077650934, 'n_hidden': 4, 'rnn_unit_size': 30, 'stride': 2}    │
+│                           ],                                                                                                                                                                                 │
+│                           'split0_test_score': array([ 0.28995744,  0.15245398,  0.21504038,  0.41396676,  0.21587458,                                                                                       │
+│                               0.39375131,  0.39451116,  0.43666087,  0.55748308,  0.45293451,                                                                                                                │
+│                               0.35261381,  0.4008398 ,  0.34707168,  0.27465114,  0.45313612,                                                                                                                │
+│                               0.42676143, -0.00112019,  0.25146928,  0.00327953, -0.08424189,                                                                                                                │
+│                              -0.00938809,  0.43752447,  0.50774548,  0.50279177,  0.37223735,                                                                                                                │
+│                               0.1473349 ,  0.54655416,  0.20805698,  0.25096579,  0.41491319]),                                                                                                              │
+│                           'split1_test_score': array([ 0.32471091,  0.30042422,  0.08889749,  0.40772554,  0.31969194,                                                                                       │
+│                               0.4682428 ,  0.49888786,  0.44259156,  0.59427739,  0.48096539,                                                                                                                │
+│                               0.24252741,  0.29303149, -0.00359447,  0.3587828 ,  0.34213103,                                                                                                                │
+│                               0.44983536,  0.2325114 ,  0.25286318,  0.00372775, -0.02474733,                                                                                                                │
+│                              -0.00251746,  0.45358978,  0.53433022,  0.53659059,  0.42670619,                                                                                                                │
+│                               0.27431857,  0.51414193,  0.43708581,  0.23836942,  0.42279756]),                                                                                                              │
+│                           'mean_test_score': array([ 0.30733418,  0.2264391 ,  0.15196893,  0.41084615,  0.26778326,                                                                                         │
+│                               0.43099705,  0.44669951,  0.43962622,  0.57588024,  0.46694995,                                                                                                                │
+│                               0.29757061,  0.34693564,  0.17173861,  0.31671697,  0.39763358,                                                                                                                │
+│                               0.4382984 ,  0.1156956 ,  0.25216623,  0.00350364, -0.05449461,                                                                                                                │
+│                              -0.00595277,  0.44555713,  0.52103785,  0.51969118,  0.39947177,                                                                                                                │
+│                               0.21082673,  0.53034804,  0.3225714 ,  0.24466761,  0.41885537]),                                                                                                              │
+│                           'std_test_score': array([0.01737674, 0.07398512, 0.06307144, 0.00312061, 0.05190868,                                                                                               │
+│                              0.03724575, 0.05218835, 0.00296535, 0.01839715, 0.01401544,                                                                                                                     │
+│                              0.0550432 , 0.05390415, 0.17533308, 0.04206583, 0.05550255,                                                                                                                     │
+│                              0.01153696, 0.1168158 , 0.00069695, 0.00022411, 0.02974728,                                                                                                                     │
+│                              0.00343531, 0.00803265, 0.01329237, 0.01689941, 0.02723442,                                                                                                                     │
+│                              0.06349184, 0.01620612, 0.11451442, 0.00629819, 0.00394219]),                                                                                                                   │
+│                           'rank_test_score': array([18, 23, 26, 12, 20, 10,  6,  8,  1,  5, 19, 15, 25, 17, 14,  9, 27,                                                                                      │
+│                              21, 28, 30, 29,  7,  3,  4, 13, 24,  2, 16, 22, 11], dtype=int32),                                                                                                              │
+│                           'split0_train_score': array([ 7.09777898e-01,  3.00755405e-01,  3.27225380e-01,  6.45516436e-01,                                                                                   │
+│                               5.86691673e-01,  6.30773451e-01,  9.95808255e-01,  6.17324176e-01,                                                                                                             │
+│                               9.97427478e-01,  9.67407779e-01,  9.45987452e-01,  6.34465011e-01,                                                                                                             │
+│                               6.26289663e-01,  5.99079850e-01,  8.30677563e-01,  9.46030151e-01,                                                                                                             │
+│                              -1.42565269e-04,  4.97978924e-01,  5.33982699e-03, -7.47911159e-02,                                                                                                             │
+│                              -1.40205911e-02,  6.82422500e-01,  9.95251431e-01,  9.96594781e-01,                                                                                                             │
+│                               9.48174859e-01,  2.85724190e-01,  9.47364074e-01,  6.54671292e-01,                                                                                                             │
+│                               3.71675045e-01,  9.52851702e-01]),                                                                                                                                             │
+│                           'split1_train_score': array([ 7.96500834e-01,  5.51439712e-01,  1.38338455e-01,  5.52541838e-01,                                                                                   │
+│                               6.56064307e-01,  7.37808752e-01,  9.81785586e-01,  5.42160795e-01,                                                                                                             │
+│                               9.97915625e-01,  9.84249348e-01,  9.03057881e-01,  5.66188475e-01,                                                                                                             │
+│                              -2.02472307e-03,  8.03396579e-01,  9.73188913e-01,  9.72121482e-01,                                                                                                             │
+│                               3.09499457e-01,  3.83814308e-01,  6.04881349e-03, -3.49133267e-02,                                                                                                             │
+│                              -7.28432513e-04,  6.36671306e-01,  9.88164176e-01,  9.98431544e-01,                                                                                                             │
+│                               9.57245117e-01,  4.32776024e-01,  8.84270398e-01,  8.13630427e-01,                                                                                                             │
+│                               3.22021296e-01,  8.19618518e-01]),                                                                                                                                             │
+│                           'mean_train_score': array([ 0.75313937,  0.42609756,  0.23278192,  0.59902914,  0.62137799,                                                                                        │
+│                               0.6842911 ,  0.98879692,  0.57974249,  0.99767155,  0.97582856,                                                                                                                │
+│                               0.92452267,  0.60032674,  0.31213247,  0.70123821,  0.90193324,                                                                                                                │
+│                               0.95907582,  0.15467845,  0.44089662,  0.00569432, -0.05485222,                                                                                                                │
+│                              -0.00737451,  0.6595469 ,  0.9917078 ,  0.99751316,  0.95270999,                                                                                                                │
+│                               0.35925011,  0.91581724,  0.73415086,  0.34684817,  0.88623511]),                                                                                                              │
+│                           'std_train_score': array([4.33614680e-02, 1.25342153e-01, 9.44434629e-02, 4.64872990e-02,                                                                                          │
+│                              3.46863170e-02, 5.35176506e-02, 7.01133468e-03, 3.75816905e-02,                                                                                                                 │
+│                              2.44073313e-04, 8.42078457e-03, 2.14647855e-02, 3.41382682e-02,                                                                                                                 │
+│                              3.14157193e-01, 1.02158364e-01, 7.12556755e-02, 1.30456656e-02,                                                                                                                 │
+│                              1.54821011e-01, 5.70823080e-02, 3.54493249e-04, 1.99388946e-02,                                                                                                                 │
+│                              6.64607928e-03, 2.28755970e-02, 3.54362773e-03, 9.18381258e-04,                                                                                                                 │
+│                              4.53512924e-03, 7.35259170e-02, 3.15468382e-02, 7.94795677e-02,                                                                                                                 │
+│                              2.48268745e-02, 6.66165921e-02])                                                                                                                                                │
+│                       }                                                                                                                                                                                      │
+│   decision_function = AttributeError("'KerasRegressor' object has no attribute 'decision_function'")                                                                                                         │
+│         error_score = nan                                                                                                                                                                                    │
+│           estimator = KerasRegressor(                                                                                                                                                                        │
+│                               model=<function build_model at 0x28ab96520>                                                                                                                                    │
+│                               build_fn=None                                                                                                                                                                  │
+│                               warm_start=False                                                                                                                                                               │
+│                               random_state=None                                                                                                                                                              │
+│                               optimizer=rmsprop                                                                                                                                                              │
+│                               loss=None                                                                                                                                                                      │
+│                               metrics=None                                                                                                                                                                   │
+│                               batch_size=None                                                                                                                                                                │
+│                               validation_batch_size=None                                                                                                                                                     │
+│                               verbose=1                                                                                                                                                                      │
+│                               callbacks=None                                                                                                                                                                 │
+│                               validation_split=0.0                                                                                                                                                           │
+│                               shuffle=True                                                                                                                                                                   │
+│                               run_eagerly=False                                                                                                                                                              │
+│                               epochs=1                                                                                                                                                                       │
+│                               arch=['Bi-RNN', 'CNN', 'CNN-RNN-comb']                                                                                                                                         │
+│                               learning_rate=<scipy.stats._distn_infrastructure.rv_continuous_frozen object at 0x288550610>                                                                                   │
+│                               filter_num=[10, 15, 20, 25, 30, 35]                                                                                                                                            │
+│                               kernel_size=[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]                                                                                                                       │
+│                               stride=[1, 2, 3, 4]                                                                                                                                                            │
+│                               rnn_unit_size=[10, 20, 30, 40, 50, 60, 70, 80, 90]                                                                                                                             │
+│                               n_hidden=[1, 2, 3, 4]                                                                                                                                                          │
+│                               activation=['relu', 'tanh', 'sigmoid']                                                                                                                                         │
+│                       )                                                                                                                                                                                      │
+│   inverse_transform = AttributeError("'KerasRegressor' object has no attribute 'inverse_transform'")                                                                                                         │
+│        multimetric_ = False                                                                                                                                                                                  │
+│      n_features_in_ = 18                                                                                                                                                                                     │
+│              n_iter = 30                                                                                                                                                                                     │
+│              n_jobs = None                                                                                                                                                                                   │
+│           n_splits_ = 2                                                                                                                                                                                      │
+│ param_distributions = {                                                                                                                                                                                      │
+│                           'arch': ['Bi-RNN', 'CNN', 'CNN-RNN-comb'],                                                                                                                                         │
+│                           'learning_rate': <scipy.stats._distn_infrastructure.rv_continuous_frozen object at 0x288550610>,                                                                                   │
+│                           'filter_num': [10, 15, 20, 25, 30, 35],                                                                                                                                            │
+│                           'kernel_size': [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],                                                                                                                       │
+│                           'stride': [1, 2, 3, 4],                                                                                                                                                            │
+│                           'rnn_unit_size': [10, 20, 30, 40, 50, 60, 70, 80, 90],                                                                                                                             │
+│                           'n_hidden': [1, 2, 3, 4],                                                                                                                                                          │
+│                           'activation': ['relu', 'tanh', 'sigmoid']                                                                                                                                          │
+│                       }                                                                                                                                                                                      │
+│        pre_dispatch = '2*n_jobs'                                                                                                                                                                             │
+│   predict_log_proba = AttributeError("'KerasRegressor' object has no attribute 'predict_log_proba'")                                                                                                         │
+│       predict_proba = AttributeError("'KerasRegressor' object has no attribute 'predict_proba'")                                                                                                             │
+│        random_state = None                                                                                                                                                                                   │
+│               refit = True                                                                                                                                                                                   │
+│         refit_time_ = 162.07999897003174                                                                                                                                                                     │
+│  return_train_score = True                                                                                                                                                                                   │
+│       score_samples = AttributeError("'KerasRegressor' object has no attribute 'score_samples'")                                                                                                             │
+│             scoring = None                                                                                                                                                                                   │
+│           transform = AttributeError("'KerasRegressor' object has no attribute 'transform'")                                                                                                                 │
+│             verbose = 3                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────────────────────────────────────────────── <class 'dict'> ─────────────────────────────────────────────────────────────────────────────────╮
+│ dict() -> new empty dictionary                                                                                                                                                   │
+│ dict(mapping) -> new dictionary initialized from a mapping object's                                                                                                              │
+│     (key, value) pairs                                                                                                                                                           │
+│ dict(iterable) -> new dictionary initialized as if via:                                                                                                                          │
+│     d = {}                                                                                                                                                                       │
+│     for k, v in iterable:                                                                                                                                                        │
+│         d[k] = v                                                                                                                                                                 │
+│ dict(**kwargs) -> new dictionary initialized with the name=value pairs                                                                                                           │
+│     in the keyword argument list.  For example:  dict(one=1, two=2)                                                                                                              │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮ │
+│ │ {'activation': 'tanh', 'arch': 'CNN-RNN-comb', 'filter_num': 20, 'kernel_size': 10, 'learning_rate': 0.0010272025683152849, 'n_hidden': 2, 'rnn_unit_size': 60, 'stride': 1} │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ 35 attribute(s) not shown. Run inspect(inspect) for options.                                                                                                                     │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯

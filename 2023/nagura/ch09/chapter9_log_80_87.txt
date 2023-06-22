@@ -1,0 +1,320 @@
+{\rtf1\ansi\ansicpg932\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28080\viewh12420\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 2023-06-22 02:16:03.202839: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.\
+To enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.\
+Model: "sequential"\
+_________________________________________________________________\
+ Layer (type)                Output Shape              Param #\
+=================================================================\
+ simple_rnn (SimpleRNN)      (None, 32)                326144\
+\
+ dense (Dense)               (None, 4)                 132\
+\
+=================================================================\
+Total params: 326,276\
+Trainable params: 326,276\
+Non-trainable params: 0\
+_________________________________________________________________\
+1/1 [==============================] - 0s 433ms/step\
+Epoch 1/10\
+334/334 [==============================] - 33s 95ms/step - loss: 0.6394 - accuracy: 0.7636 - val_loss: 0.4106 - val_accuracy: 0.8553\
+Epoch 2/10\
+334/334 [==============================] - 34s 101ms/step - loss: 0.2082 - accuracy: 0.9369 - val_loss: 0.3512 - val_accuracy: 0.8831\
+Epoch 3/10\
+334/334 [==============================] - 32s 97ms/step - loss: 0.0783 - accuracy: 0.9789 - val_loss: 0.3977 - val_accuracy: 0.8801\
+Epoch 4/10\
+334/334 [==============================] - 34s 103ms/step - loss: 0.0382 - accuracy: 0.9904 - val_loss: 0.4008 - val_accuracy: 0.8913\
+Epoch 5/10\
+334/334 [==============================] - 34s 102ms/step - loss: 0.0228 - accuracy: 0.9945 - val_loss: 0.4533 - val_accuracy: 0.8801\
+Epoch 6/10\
+334/334 [==============================] - 34s 102ms/step - loss: 0.0182 - accuracy: 0.9958 - val_loss: 0.4390 - val_accuracy: 0.8793\
+Epoch 7/10\
+334/334 [==============================] - 33s 98ms/step - loss: 0.0122 - accuracy: 0.9966 - val_loss: 0.4976 - val_accuracy: 0.8838\
+Epoch 8/10\
+334/334 [==============================] - 32s 95ms/step - loss: 0.0136 - accuracy: 0.9960 - val_loss: 0.5177 - val_accuracy: 0.8838\
+Epoch 9/10\
+334/334 [==============================] - 30s 91ms/step - loss: 0.0152 - accuracy: 0.9953 - val_loss: 0.5348 - val_accuracy: 0.8553\
+Epoch 10/10\
+334/334 [==============================] - 28s 84ms/step - loss: 0.0118 - accuracy: 0.9960 - val_loss: 0.5591 - val_accuracy: 0.8741\
+1/1 [==============================] - 0s 42ms/step\
+Model: "sequential_2"\
+_________________________________________________________________\
+ Layer (type)                Output Shape              Param #\
+=================================================================\
+ simple_rnn_2 (SimpleRNN)    (None, 32)                326144\
+\
+ dense_2 (Dense)             (None, 4)                 132\
+\
+=================================================================\
+Total params: 326,276\
+Trainable params: 326,276\
+Non-trainable params: 0\
+_________________________________________________________________\
+Epoch 1/10\
+334/334 [==============================] - 32s 91ms/step - loss: 0.8092 - accuracy: 0.6762 - val_loss: 0.5147 - val_accuracy: 0.8156\
+Epoch 2/10\
+334/334 [==============================] - 31s 92ms/step - loss: 0.2820 - accuracy: 0.9054 - val_loss: 0.3933 - val_accuracy: 0.8711\
+Epoch 3/10\
+334/334 [==============================] - 27s 82ms/step - loss: 0.0945 - accuracy: 0.9756 - val_loss: 0.4286 - val_accuracy: 0.8711\
+Epoch 4/10\
+334/334 [==============================] - 29s 88ms/step - loss: 0.0354 - accuracy: 0.9931 - val_loss: 0.4201 - val_accuracy: 0.8696\
+Epoch 5/10\
+334/334 [==============================] - 27s 81ms/step - loss: 0.0183 - accuracy: 0.9959 - val_loss: 0.4591 - val_accuracy: 0.8771\
+Epoch 6/10\
+334/334 [==============================] - 27s 80ms/step - loss: 0.0114 - accuracy: 0.9977 - val_loss: 0.4819 - val_accuracy: 0.8658\
+Epoch 7/10\
+334/334 [==============================] - 29s 86ms/step - loss: 0.0081 - accuracy: 0.9979 - val_loss: 0.4897 - val_accuracy: 0.8763\
+Epoch 8/10\
+334/334 [==============================] - 27s 82ms/step - loss: 0.0070 - accuracy: 0.9983 - val_loss: 0.5534 - val_accuracy: 0.8681\
+Epoch 9/10\
+334/334 [==============================] - 27s 82ms/step - loss: 0.0061 - accuracy: 0.9985 - val_loss: 0.5810 - val_accuracy: 0.8628\
+Epoch 10/10\
+334/334 [==============================] - 27s 80ms/step - loss: 0.0065 - accuracy: 0.9982 - val_loss: 0.6200 - val_accuracy: 0.8358\
+1/1 [==============================] - 0s 200ms/step\
+Model: "sequential_3"\
+_________________________________________________________________\
+ Layer (type)                Output Shape              Param #\
+=================================================================\
+ simple_rnn_3 (SimpleRNN)    (None, 32)                326144\
+\
+ dense_3 (Dense)             (None, 4)                 132\
+\
+=================================================================\
+Total params: 326,276\
+Trainable params: 326,276\
+Non-trainable params: 0\
+_________________________________________________________________\
+Epoch 1/10\
+2668/2668 [==============================] - 94s 34ms/step - loss: 0.5705 - accuracy: 0.7938 - val_loss: 0.4604 - val_accuracy: 0.8478\
+Epoch 2/10\
+2668/2668 [==============================] - 89s 33ms/step - loss: 0.1820 - accuracy: 0.9391 - val_loss: 0.4002 - val_accuracy: 0.8718\
+Epoch 3/10\
+2668/2668 [==============================] - 84s 32ms/step - loss: 0.0683 - accuracy: 0.9799 - val_loss: 0.4589 - val_accuracy: 0.8696\
+Epoch 4/10\
+2668/2668 [==============================] - 84s 32ms/step - loss: 0.0335 - accuracy: 0.9908 - val_loss: 0.5008 - val_accuracy: 0.8583\
+Epoch 5/10\
+2668/2668 [==============================] - 84s 31ms/step - loss: 0.0220 - accuracy: 0.9939 - val_loss: 0.5890 - val_accuracy: 0.8546\
+Epoch 6/10\
+2668/2668 [==============================] - 84s 31ms/step - loss: 0.0179 - accuracy: 0.9948 - val_loss: 0.5922 - val_accuracy: 0.8666\
+Epoch 7/10\
+2668/2668 [==============================] - 83s 31ms/step - loss: 0.0194 - accuracy: 0.9942 - val_loss: 0.5832 - val_accuracy: 0.8598\
+Epoch 8/10\
+2668/2668 [==============================] - 85s 32ms/step - loss: 0.0118 - accuracy: 0.9965 - val_loss: 0.5870 - val_accuracy: 0.8688\
+Epoch 9/10\
+2668/2668 [==============================] - 85s 32ms/step - loss: 0.0112 - accuracy: 0.9966 - val_loss: 0.6182 - val_accuracy: 0.8538\
+Epoch 10/10\
+2668/2668 [==============================] - 83s 31ms/step - loss: 0.0147 - accuracy: 0.9955 - val_loss: 0.6576 - val_accuracy: 0.8523\
+Model: "sequential_4"\
+_________________________________________________________________\
+ Layer (type)                Output Shape              Param #\
+=================================================================\
+ simple_rnn_4 (SimpleRNN)    (None, 32)                326144\
+\
+ dense_4 (Dense)             (None, 4)                 132\
+\
+=================================================================\
+Total params: 326,276\
+Trainable params: 326,276\
+Non-trainable params: 0\
+_________________________________________________________________\
+Epoch 1/10\
+1334/1334 [==============================] - 56s 41ms/step - loss: 0.5968 - accuracy: 0.7865 - val_loss: 0.3694 - val_accuracy: 0.8786\
+Epoch 2/10\
+1334/1334 [==============================] - 53s 39ms/step - loss: 0.1842 - accuracy: 0.9403 - val_loss: 0.3271 - val_accuracy: 0.8891\
+Epoch 3/10\
+1334/1334 [==============================] - 55s 41ms/step - loss: 0.0779 - accuracy: 0.9768 - val_loss: 0.4069 - val_accuracy: 0.8718\
+Epoch 4/10\
+1334/1334 [==============================] - 52s 39ms/step - loss: 0.0386 - accuracy: 0.9874 - val_loss: 0.4763 - val_accuracy: 0.8508\
+Epoch 5/10\
+1334/1334 [==============================] - 54s 40ms/step - loss: 0.0299 - accuracy: 0.9914 - val_loss: 0.4700 - val_accuracy: 0.8553\
+Epoch 6/10\
+1334/1334 [==============================] - 54s 40ms/step - loss: 0.0194 - accuracy: 0.9938 - val_loss: 0.4441 - val_accuracy: 0.8793\
+Epoch 7/10\
+1334/1334 [==============================] - 53s 40ms/step - loss: 0.0199 - accuracy: 0.9939 - val_loss: 0.5209 - val_accuracy: 0.8748\
+Epoch 8/10\
+1334/1334 [==============================] - 53s 40ms/step - loss: 0.0166 - accuracy: 0.9951 - val_loss: 0.5415 - val_accuracy: 0.8778\
+Epoch 9/10\
+1334/1334 [==============================] - 54s 41ms/step - loss: 0.0105 - accuracy: 0.9968 - val_loss: 0.6388 - val_accuracy: 0.8696\
+Epoch 10/10\
+1334/1334 [==============================] - 54s 41ms/step - loss: 0.0153 - accuracy: 0.9959 - val_loss: 0.7632 - val_accuracy: 0.8283\
+Model: "sequential_5"\
+_________________________________________________________________\
+ Layer (type)                Output Shape              Param #\
+=================================================================\
+ simple_rnn_5 (SimpleRNN)    (None, 32)                326144\
+\
+ dense_5 (Dense)             (None, 4)                 132\
+\
+=================================================================\
+Total params: 326,276\
+Trainable params: 326,276\
+Non-trainable params: 0\
+_________________________________________________________________\
+Epoch 1/10\
+334/334 [==============================] - 29s 81ms/step - loss: 0.6045 - accuracy: 0.7784 - val_loss: 0.4283 - val_accuracy: 0.8418\
+Epoch 2/10\
+334/334 [==============================] - 28s 83ms/step - loss: 0.2019 - accuracy: 0.9347 - val_loss: 0.3854 - val_accuracy: 0.8703\
+Epoch 3/10\
+334/334 [==============================] - 28s 83ms/step - loss: 0.0704 - accuracy: 0.9821 - val_loss: 0.4114 - val_accuracy: 0.8726\
+Epoch 4/10\
+334/334 [==============================] - 26s 78ms/step - loss: 0.0302 - accuracy: 0.9941 - val_loss: 0.4374 - val_accuracy: 0.8831\
+Epoch 5/10\
+334/334 [==============================] - 28s 84ms/step - loss: 0.0167 - accuracy: 0.9966 - val_loss: 0.4843 - val_accuracy: 0.8628\
+Epoch 6/10\
+334/334 [==============================] - 28s 83ms/step - loss: 0.0111 - accuracy: 0.9975 - val_loss: 0.5248 - val_accuracy: 0.8718\
+Epoch 7/10\
+334/334 [==============================] - 26s 79ms/step - loss: 0.0103 - accuracy: 0.9976 - val_loss: 0.5181 - val_accuracy: 0.8606\
+Epoch 8/10\
+334/334 [==============================] - 28s 82ms/step - loss: 0.0122 - accuracy: 0.9967 - val_loss: 0.5083 - val_accuracy: 0.8658\
+Epoch 9/10\
+334/334 [==============================] - 28s 83ms/step - loss: 0.0087 - accuracy: 0.9975 - val_loss: 0.5858 - val_accuracy: 0.8561\
+Epoch 10/10\
+334/334 [==============================] - 27s 82ms/step - loss: 0.0123 - accuracy: 0.9964 - val_loss: 0.5666 - val_accuracy: 0.8621\
+Model: "sequential_6"\
+_________________________________________________________________\
+ Layer (type)                Output Shape              Param #\
+=================================================================\
+ simple_rnn_6 (SimpleRNN)    (None, 32)                326144\
+\
+ dense_6 (Dense)             (None, 4)                 132\
+\
+=================================================================\
+Total params: 326,276\
+Trainable params: 326,276\
+Non-trainable params: 0\
+_________________________________________________________________\
+Epoch 1/10\
+167/167 [==============================] - 26s 145ms/step - loss: 0.7429 - accuracy: 0.7237 - val_loss: 0.5801 - val_accuracy: 0.7811\
+Epoch 2/10\
+167/167 [==============================] - 25s 151ms/step - loss: 0.3389 - accuracy: 0.8789 - val_loss: 0.4903 - val_accuracy: 0.8358\
+Epoch 3/10\
+167/167 [==============================] - 26s 156ms/step - loss: 0.2207 - accuracy: 0.9262 - val_loss: 0.4848 - val_accuracy: 0.8328\
+Epoch 4/10\
+167/167 [==============================] - 25s 150ms/step - loss: 0.1543 - accuracy: 0.9570 - val_loss: 0.5138 - val_accuracy: 0.8201\
+Epoch 5/10\
+167/167 [==============================] - 25s 151ms/step - loss: 0.0856 - accuracy: 0.9788 - val_loss: 0.4804 - val_accuracy: 0.8373\
+Epoch 6/10\
+167/167 [==============================] - 26s 158ms/step - loss: 0.0442 - accuracy: 0.9909 - val_loss: 0.5423 - val_accuracy: 0.8426\
+Epoch 7/10\
+167/167 [==============================] - 26s 156ms/step - loss: 0.0235 - accuracy: 0.9961 - val_loss: 0.5676 - val_accuracy: 0.8321\
+Epoch 8/10\
+167/167 [==============================] - 26s 153ms/step - loss: 0.0160 - accuracy: 0.9963 - val_loss: 0.6102 - val_accuracy: 0.8336\
+Epoch 9/10\
+167/167 [==============================] - 25s 151ms/step - loss: 0.0110 - accuracy: 0.9974 - val_loss: 0.6116 - val_accuracy: 0.8268\
+Epoch 10/10\
+167/167 [==============================] - 26s 154ms/step - loss: 0.0090 - accuracy: 0.9979 - val_loss: 0.6484 - val_accuracy: 0.8358\
+Model: "sequential_7"\
+_________________________________________________________________\
+ Layer (type)                Output Shape              Param #\
+=================================================================\
+ simple_rnn_7 (SimpleRNN)    (None, 32)                10656\
+\
+ dense_7 (Dense)             (None, 4)                 132\
+\
+=================================================================\
+Total params: 10,788\
+Trainable params: 10,788\
+Non-trainable params: 0\
+_________________________________________________________________\
+Epoch 1/10\
+334/334 [==============================] - 3s 6ms/step - loss: 0.6342 - accuracy: 0.7835 - val_loss: 0.4876 - val_accuracy: 0.8291\
+Epoch 2/10\
+334/334 [==============================] - 2s 5ms/step - loss: 0.4272 - accuracy: 0.8565 - val_loss: 0.4210 - val_accuracy: 0.8621\
+Epoch 3/10\
+334/334 [==============================] - 2s 5ms/step - loss: 0.3703 - accuracy: 0.8775 - val_loss: 0.3974 - val_accuracy: 0.8718\
+Epoch 4/10\
+334/334 [==============================] - 2s 5ms/step - loss: 0.3418 - accuracy: 0.8873 - val_loss: 0.3950 - val_accuracy: 0.8673\
+Epoch 5/10\
+334/334 [==============================] - 2s 5ms/step - loss: 0.3154 - accuracy: 0.8964 - val_loss: 0.3830 - val_accuracy: 0.8726\
+Epoch 6/10\
+334/334 [==============================] - 2s 5ms/step - loss: 0.3072 - accuracy: 0.8989 - val_loss: 0.3747 - val_accuracy: 0.8718\
+Epoch 7/10\
+334/334 [==============================] - 2s 5ms/step - loss: 0.2863 - accuracy: 0.9077 - val_loss: 0.3758 - val_accuracy: 0.8838\
+Epoch 8/10\
+334/334 [==============================] - 2s 6ms/step - loss: 0.2766 - accuracy: 0.9076 - val_loss: 0.3836 - val_accuracy: 0.8756\
+Epoch 9/10\
+334/334 [==============================] - 2s 6ms/step - loss: 0.2572 - accuracy: 0.9160 - val_loss: 0.3760 - val_accuracy: 0.8913\
+Epoch 10/10\
+334/334 [==============================] - 2s 6ms/step - loss: 0.2536 - accuracy: 0.9161 - val_loss: 0.3694 - val_accuracy: 0.8913\
+Model: "sequential_8"\
+_________________________________________________________________\
+ Layer (type)                Output Shape              Param #\
+=================================================================\
+ bidirectional (Bidirectiona  (None, None, 64)         21312\
+ l)\
+\
+ bidirectional_1 (Bidirectio  (None, 64)               6208\
+ nal)\
+\
+ dense_8 (Dense)             (None, 4)                 260\
+\
+=================================================================\
+Total params: 27,780\
+Trainable params: 27,780\
+Non-trainable params: 0\
+_________________________________________________________________\
+Epoch 1/10\
+334/334 [==============================] - 10s 21ms/step - loss: 0.5131 - accuracy: 0.8197 - val_loss: 0.4108 - val_accuracy: 0.8598\
+Epoch 2/10\
+334/334 [==============================] - 5s 16ms/step - loss: 0.3185 - accuracy: 0.8880 - val_loss: 0.3416 - val_accuracy: 0.8883\
+Epoch 3/10\
+334/334 [==============================] - 5s 16ms/step - loss: 0.2678 - accuracy: 0.9097 - val_loss: 0.3493 - val_accuracy: 0.8936\
+Epoch 4/10\
+334/334 [==============================] - 6s 16ms/step - loss: 0.2330 - accuracy: 0.9195 - val_loss: 0.3494 - val_accuracy: 0.8838\
+Epoch 5/10\
+334/334 [==============================] - 5s 16ms/step - loss: 0.1925 - accuracy: 0.9325 - val_loss: 0.3631 - val_accuracy: 0.8891\
+Epoch 6/10\
+334/334 [==============================] - 6s 17ms/step - loss: 0.1537 - accuracy: 0.9508 - val_loss: 0.3860 - val_accuracy: 0.8778\
+Epoch 7/10\
+334/334 [==============================] - 6s 17ms/step - loss: 0.1203 - accuracy: 0.9640 - val_loss: 0.4177 - val_accuracy: 0.8808\
+Epoch 8/10\
+334/334 [==============================] - 6s 17ms/step - loss: 0.0912 - accuracy: 0.9727 - val_loss: 0.4692 - val_accuracy: 0.8711\
+Epoch 9/10\
+334/334 [==============================] - 6s 17ms/step - loss: 0.0684 - accuracy: 0.9808 - val_loss: 0.5202 - val_accuracy: 0.8703\
+Epoch 10/10\
+334/334 [==============================] - 6s 17ms/step - loss: 0.0517 - accuracy: 0.9883 - val_loss: 0.5484 - val_accuracy: 0.8651\
+Model: "sequential_9"\
+_________________________________________________________________\
+ Layer (type)                Output Shape              Param #\
+=================================================================\
+ conv1d (Conv1D)             (None, 18, 10)            304780\
+\
+ max_pooling1d (MaxPooling1D  (None, 9, 10)            0\
+ )\
+\
+ flatten (Flatten)           (None, 90)                0\
+\
+ dense_9 (Dense)             (None, 4)                 364\
+\
+=================================================================\
+Total params: 305,144\
+Trainable params: 305,144\
+Non-trainable params: 0\
+_________________________________________________________________\
+1/1 [==============================] - 0s 114ms/step\
+Epoch 1/10\
+334/334 [==============================] - 24s 69ms/step - loss: 0.9912 - accuracy: 0.6945 - val_loss: 0.7608 - val_accuracy: 0.7579\
+Epoch 2/10\
+334/334 [==============================] - 20s 61ms/step - loss: 0.5511 - accuracy: 0.8039 - val_loss: 0.5358 - val_accuracy: 0.8043\
+Epoch 3/10\
+334/334 [==============================] - 20s 60ms/step - loss: 0.3357 - accuracy: 0.8936 - val_loss: 0.4166 - val_accuracy: 0.8613\
+Epoch 4/10\
+334/334 [==============================] - 21s 62ms/step - loss: 0.1939 - accuracy: 0.9670 - val_loss: 0.3467 - val_accuracy: 0.8883\
+Epoch 5/10\
+334/334 [==============================] - 20s 61ms/step - loss: 0.1077 - accuracy: 0.9881 - val_loss: 0.3082 - val_accuracy: 0.8966\
+Epoch 6/10\
+334/334 [==============================] - 20s 61ms/step - loss: 0.0622 - accuracy: 0.9948 - val_loss: 0.2897 - val_accuracy: 0.8981\
+Epoch 7/10\
+334/334 [==============================] - 20s 60ms/step - loss: 0.0379 - accuracy: 0.9976 - val_loss: 0.2846 - val_accuracy: 0.8988\
+Epoch 8/10\
+334/334 [==============================] - 20s 61ms/step - loss: 0.0247 - accuracy: 0.9985 - val_loss: 0.2797 - val_accuracy: 0.9018\
+Epoch 9/10\
+334/334 [==============================] - 20s 60ms/step - loss: 0.0171 - accuracy: 0.9986 - val_loss: 0.2761 - val_accuracy: 0.8996\
+Epoch 10/10\
+334/334 [==============================] - 20s 61ms/step - loss: 0.0125 - accuracy: 0.9988 - val_loss: 0.2840 - val_accuracy: 0.9010\
+1/1 [==============================] - 0s 52ms/step}
