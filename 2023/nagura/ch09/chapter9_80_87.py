@@ -367,8 +367,6 @@ history = model.fit(
     X_train,
     np.array(y_train),
     epochs=TRAINING_EPOCHS,
-    # steps_per_epoch=10, ここを設定すると、epoch = batch_size*steps_per_epochとなり、
-    # よりaccuracyが上がっていくところがわかりやすいグラフがかける
     batch_size=32,
     validation_data=(X_valid, np.array(y_valid)),
     validation_batch_size=200,
